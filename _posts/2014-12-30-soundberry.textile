@@ -10,21 +10,26 @@ height: 1000
 ---
 
 # Soundberry
-# About
-* Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
-* ID: PD0, PO1, PD2
-# Log In 
-* User: pi  Password: raspberry
-# Start
-* Starts in console
-# Do:
-** $ sudo startx
 
-# Experiments
-# PD0_2
+## About
+
+* Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
+    * ID: PD0, PO1, PD2
+
+* Log In 
+    * User: pi  Password: raspberry
+
+* Start
+    * Starts in console
+    * Do:
+        * $ sudo startx
+
+# Tests
+
+## PD0_2
 * Test sound Raspberry with Potentiometers
-** Ref
-*** http://workshopweekend.net/arduino/labs/exploring-color
+    * Ref
+        * http://workshopweekend.net/arduino/labs/exploring-color
 
 
 # Done
