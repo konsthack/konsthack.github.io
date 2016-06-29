@@ -41,6 +41,7 @@ height: 1000
 <li> PD0_1 </li>
  <ul> 
   <li> Connect Python and Puredata </li>
+  <li> <href src="https://github.com/palletorsson/pd_python"> Code </li>
  </ul>
  </ul>
 
