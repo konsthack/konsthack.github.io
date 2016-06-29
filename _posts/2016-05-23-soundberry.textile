@@ -13,12 +13,21 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
 
 <h3> About </h3>
 <hr>
+<table>
+<tr>
+<td>
 <ul>
  <li>Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider. </li>
  <li> IDs PD0, PO1, PD2 </li>
  <li> Log In --> User: pi  Password: raspberry </li>
  <li> Start | $ sudo startx </li>
 </ul>
+</td>
+<td>
+<img src="https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg" alt="raspberry sound img" width="300px" />
+</td>
+</tr>
+</table>
 <hr>
 <h3> Next Tests </h3>
 <hr>
@@ -29,8 +38,7 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
    <li> Ref | <a href="http://workshopweekend.net/arduino/labs/exploring-color">Potentiometer setup Start explore</a> 
   </ul>
  </ul>
-<hr>
-<img src="https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg" alt="raspberry sound img" width="300px" />
+
 
 <h3> Done </h3>
 <hr>
