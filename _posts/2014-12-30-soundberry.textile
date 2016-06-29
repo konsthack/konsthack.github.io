@@ -11,6 +11,7 @@ height: 1000
 <h2>Sound Raspberry</h2>
 
 <h3> About </h3>
+<hr>
 <ul>
  <li>Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider. </li>
  <li> IDs PD0, PO1, PD2 </li>
@@ -18,7 +19,8 @@ height: 1000
  <li> Start | $ sudo startx </li>
 </ul>
 <hr>
-<h3> Tests </h3>
+<h3> Next Tests </h3>
+<hr>
 <ul>
  <li>PD0_2</li>
  <ul>
@@ -26,14 +28,16 @@ height: 1000
    <li>Ref: http://workshopweekend.net/arduino/labs/exploring-color </li>
   </ul>
  </ul>
-
+<hr>
 <h3> Done </h3>
+<hr>
 <ul>
 <li> PD0_0 </li>
  <ul> 
   <li> Install Sound Pi </li>
  </ul>
  </ul>
+<ul>
 <li> PD0_1 </li>
  <ul> 
   <li> Connect Python and Puredata </li>
