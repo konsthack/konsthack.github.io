@@ -7,7 +7,8 @@ procent: "20"
 when: 2400
 howlong: 40
 height: 1000
-content: 
+---
+
 # Soundberry
 # About
 * Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
@@ -32,5 +33,3 @@ content:
 * Install Sound Pi
 # PD0_1
 * Connect Python and Puredata
-
----
