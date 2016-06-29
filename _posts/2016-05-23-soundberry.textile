@@ -45,18 +45,18 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
 <h3> Done </h3>
 <hr>
 <ul>
-<li> PD0_0 </li>
- <ul> 
-  <li> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Install Sound Pi </li> 
-  <li> <a href="https://ccrma.stanford.edu/~eberdahl/Satellite/">see Satellite CCRMA for raspbian image</a> </li>
-
- </ul>
- </ul>
-<ul>
 <li> PD0_1 </li>
  <ul> 
   <li> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Connect Python and Puredata </li>
   <li> <a href="https://github.com/palletorsson/pd_python">Python Puredata Code exemple</a> </li>
  </ul>
+
+<li> PD0_0 </li>
+ <ul> 
+  <li> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Install Sound Pi </li> 
+  <li> <a href="https://ccrma.stanford.edu/~eberdahl/Satellite/">see Satellite CCRMA for raspbian image</a> </li>
+ </ul>
+ </ul>
+
  </ul>
 
