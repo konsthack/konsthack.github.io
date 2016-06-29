@@ -17,7 +17,7 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
 <tr>
 <td>
 <ul>
- <li>Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider. </li>
+ <li> Satellite CCRMA and This Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider. Satellite CCRMA is a platform for building embedded musical instruments and embedded art installations by Edgar Berdahl and Wendy Ju.</li>
  <li> IDs PD0, PO1, PD2 </li>
  <li> Log In --> User: pi  Password: raspberry </li>
  <li> Start | $ sudo startx </li>
