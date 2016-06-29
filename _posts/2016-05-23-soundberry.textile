@@ -47,7 +47,7 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
 <ul>
 <li> PD0_0 </li>
  <ul> 
-  <li> Install Sound Pi </li>
+  <li> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Install Sound Pi </li> 
   <li> <a href="https://ccrma.stanford.edu/~eberdahl/Satellite/">see Satellite CCRMA for raspbian image</a> </li>
 
  </ul>
@@ -55,7 +55,7 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
 <ul>
 <li> PD0_1 </li>
  <ul> 
-  <li> Connect Python and Puredata </li>
+  <li> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Connect Python and Puredata </li>
   <li> <a href="https://github.com/palletorsson/pd_python">Python Puredata Code exemple</a> </li>
  </ul>
  </ul>
