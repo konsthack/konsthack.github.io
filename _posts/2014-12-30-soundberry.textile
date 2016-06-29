@@ -9,9 +9,25 @@ howlong: 40
 height: 1000
 ---
 
-# Soundberry
+# The largest heading
+## The second largest heading
+###### The smallest heading
 
-## About
+
+**This text is _extremely_ important**
+
+
+> Pardon my French
+
+```
+git status
+git add
+git commit
+```
+
+- Soundberry
+
+- About
 
 * Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
     * ID: PD0, PO1, PD2
