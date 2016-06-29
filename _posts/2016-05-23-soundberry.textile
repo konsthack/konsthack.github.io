@@ -36,7 +36,7 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
 <ul>
  <li>PD0_2</li>
  <ul>
-   <li>Test sound Raspberry with Potentiometers</li>
+   <li><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Test sound Raspberry with Potentiometers</li>
    <li> Ref | <a href="http://workshopweekend.net/arduino/labs/exploring-color">Potentiometer setup Start explore</a> 
   </ul>
  </ul>
