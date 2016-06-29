@@ -8,9 +8,9 @@ when: 2400
 howlong: 40
 height: 1000
 ---
-** _Sound Raspberry_ **
+<h2>Sound Raspberry</h2>
 
-** About **
+<h3> About </h3>
 * Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
   * ID: PD0, PO1, PD2
 * Log In 
