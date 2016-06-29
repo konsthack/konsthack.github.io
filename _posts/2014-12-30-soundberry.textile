@@ -17,40 +17,30 @@ height: 1000
 **This text is _extremely_ important**
 
 
-> Pardon my French
 
-```
-git status
-git add
-git commit
-```
+** _Sound Raspberry_ **
 
-- Soundberry
-
-- About
-
+** About **
 * Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
-    * ID: PD0, PO1, PD2
-
+  * ID: PD0, PO1, PD2
 * Log In 
-    * User: pi  Password: raspberry
-
+  * User: pi  Password: raspberry
 * Start
-    * Starts in console
-    * Do:
-        * $ sudo startx
+  * Starts in console
+  * Do:
+    * $ sudo startx
 
-# Tests
+** Tests **
 
-## PD0_2
-* Test sound Raspberry with Potentiometers
+* PD0_2
+  * Test sound Raspberry with Potentiometers
     * Ref
-        * http://workshopweekend.net/arduino/labs/exploring-color
+      * http://workshopweekend.net/arduino/labs/exploring-color
 
 
-# Done
-# Experiments
-# PD0_0
+** Done **
+* Experiments
+* PD0_0
 * Install Sound Pi
-# PD0_1
+* PD0_1
 * Connect Python and Puredata
