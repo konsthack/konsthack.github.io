@@ -29,6 +29,7 @@ height: 1000
   </ul>
  </ul>
 <hr>
+<img src="https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg"/ width="300px">
 <h3> Done </h3>
 <hr>
 <ul>
