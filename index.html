@@ -27,7 +27,7 @@ layout: default
 		<div class="homework">
         	<div class="front-page_images">
             	<a href="{{ post.url }}" alt="{{ post.title }}">
-                	<img src="{{site.data.global.dropbox_folder_path}}/{{ post.title }}_thumb.jpg"  alt="{{ post.title }}" />
+                	<img src="{{ post.img }}"  alt="{{ post.title }}" />
   					<div class="process pull-right"> {{ post.date | date_to_string }} </div>
                 </a>
             </div>
