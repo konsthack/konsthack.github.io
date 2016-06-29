@@ -23,10 +23,10 @@ img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
  <li> Start | $ sudo startx </li>
 </ul>
 </td>
+<td width="20px">
+</td>
 <td>
 <img src="https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg" alt="raspberry sound img" width="300px" />
-</td>
-<td width="20px">
 </td>
 </tr>
 </table>
