@@ -11,26 +11,32 @@ height: 1000
 <h2>Sound Raspberry</h2>
 
 <h3> About </h3>
-* Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
-  * ID: PD0, PO1, PD2
-* Log In 
-  * User: pi  Password: raspberry
-* Start
-  * Starts in console
-  * Do:
-    * $ sudo startx
+<ul>
+ <li>Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider. </li>
+ <li> IDs PD0, PO1, PD2 </li>
+ <li> Log In --> User: pi  Password: raspberry </li>
+ <li> Start | $ sudo startx </li>
+</ul>
+<hr>
+<h3> Tests </h3>
+<ul>
+ <li>PD0_2</li>
+ <ul>
+   <li>Test sound Raspberry with Potentiometers</li>
+   <li>Ref: http://workshopweekend.net/arduino/labs/exploring-color </li>
+  </ul>
+ </ul>
 
-** Tests **
+<h3> Done </h3>
+<ul>
+<li> PD0_0 </li>
+ <ul> 
+  <li> Install Sound Pi </li>
+ </ul>
+ </ul>
+<li> PD0_1 </li>
+ <ul> 
+  <li> Connect Python and Puredata </li>
+ </ul>
+ </ul>
 
-* PD0_2
-  * Test sound Raspberry with Potentiometers
-    * Ref
-      * http://workshopweekend.net/arduino/labs/exploring-color
-
-
-** Done **
-* Experiments
-* PD0_0
-* Install Sound Pi
-* PD0_1
-* Connect Python and Puredata
