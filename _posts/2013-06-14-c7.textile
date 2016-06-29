@@ -1,0 +1,12 @@
+---
+layout: post
+title: "c7"
+date: "2013-04-14"
+procent: "100"
+iframe_id: 1FlzowWMmFMetwdTtMYQCu3FK5T1c2tsLfBG5kyH50GA
+when: 1300
+howlong: 100
+height: 4000
+summery: ... The idea had been sparked by online discussions in activist groups in Stockholm to find alternatives to commercial social media. 
+---
+

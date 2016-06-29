@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Hacknight"
+date: "2012-08-30"
+iframe_id: 15cqWaytJOFUy_iS_oHMvsZUEdAMNKG-OzkJLc47J59U 
+procent: "100" 
+when: 500
+howlong: 100
+height: 10000
+summery: ... The making of hacknight made it possible for me to develop and describe the differences between the hacker net-activist agency of Sparvnästet, and the liberal innovation coded maker agency of the Museum of Technology. A reworked article called “Hacknight” was later peer reviewed and accepted for the Journal of Nordic Museology in 2014.
+---

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Summery"
+date: "2015-08-30"
+pdf: "https://dl.dropboxusercontent.com/u/1882061/articipation/Revelopers.pdf"
+rtf: "https://dl.dropboxusercontent.com/u/1882061/articipation/Revelopers.rtf"
+procent: "100"
+when: 100
+howlong: 200
+iframe_id: 15cqWaytJOFUy_iS_oHMvsZUEdAMNKG-OzkJLc47J59U  
+---
+<h3> {{ page.title }} <small> ( {{ page.date | date_to_string }} ) </h3>
+<iframe src="https://docs.google.com/document/d/1V9vds5Hl7xiGdyurWPqMCLAHxil464zQsGa5oNZa2-8/pub?embedded=true" style=" width:100%; height:600px; overflow-y:scroll; frameBoarder:0;" ></iframe>
+

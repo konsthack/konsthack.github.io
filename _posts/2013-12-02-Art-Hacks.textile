@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Art Hacks"
+date: "2013-12-06"
+procent: "100"
+iframe_id: 1oPdhaq8A25qq-Fu7nllutle10Rm73ylzFoXGau_KrDs
+when: 1100
+howlong: 100
+height: 10000
+summery: ... The report points to how networked possibilities are inherently ambiguous and how this is something, where constant detours are necessary - jumping between different standpoint is important to reproduce creativity.  
+---
+

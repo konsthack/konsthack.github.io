@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Learning from Piracy"
+date: "2013-12-13"
+iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
+procent: "100"
+when: 1200
+howlong: 200
+height: 30000
+summery: ... Questions focused on a possible lack and the inability of knowledge institutions to risk investing in the unknown and unpredictable.
+---

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Trans-Piracy"
+date: "2013-12-07"
+procent: "100"
+iframe_id: 1wOUrg_ZPjOekwW08jQPitoOnZKb9hBhvwSKUOcaWbLg
+when: 950
+howlong: 100
+height: 17000
+summery: ...  The workshop focused on the transformative nature of piracy. A connection between global feminism and the creative non-white agency started to emerge as an alternative to the emphasis on the predominantly, white, middle class, male agency.
+---
+
+
+

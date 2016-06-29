@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Learning from Piracy Course Proposition"
+date: "2012-01-02"
+link: "https://dl.dropboxusercontent.com/u/1882061/articipation/LP_13_14.pdf"
+howlong: 4000
+---
+

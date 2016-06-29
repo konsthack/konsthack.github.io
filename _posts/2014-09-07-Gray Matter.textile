@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Gray Matter"
+date: "2014-09-07"
+iframe_id: 1ulw2SerFEA21IcV8uoNKjzfzGlSMJq8TeUk0TV2UlAM
+procent: "95"
+when: 2200
+howlong: 100
+height: 2000
+summery: ...  it touches the “the problem of Relational art” of trying to represent participatory contexts. The production and conversation showed an unclear border to the alternative art world and the art world’s commercial sphere. 
+---
+
+

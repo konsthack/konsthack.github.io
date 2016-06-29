@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Pirate divided"
+date: "2012-12-07"
+procent: "100"
+iframe_id: 1-DcBaNs61GrfQOu_TNvGeBgYkMBHCRgKhomyRb0788s
+when: 850
+howlong: 150
+height: 18000
+summery: ... In the report and with Burkhart's lecture I try to figure out the difference between Piratbyråns more ritual process and the more liberal and partisan process of The Pirate Party.
+---
+

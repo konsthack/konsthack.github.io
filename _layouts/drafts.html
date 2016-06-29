@@ -1,0 +1,10 @@
+
+---
+layout: default
+---
+
+{% capture dropbox_link %}{{ site.data.global.dropbox_folder_path }}{{ page.title }}{% endcapture %}
+
+<h3> {{ page.title }} <small> ( {{ page.date | date_to_string }} ) | <a href="https://docs.google.com/document/d/{{ page.iframe_id }}/pub?embedded=true" target="_blank">Open {{ page.title }} text in a new window </a> | <a href="https://docs.google.com/document/d/{{ page.iframe_id }}/edit" target="_blank">Add comment and suggestions to {{ page.title }} text</a> </small></h3>
+<iframe src="https://docs.google.com/presentation/d/1vP2nlS5tqwLpoJAk-VbM0dPrfg75fkJnZnBeHHZJ3to/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></iframe>
+

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Riot Chat"
+date: "2014-08-30"
+iframe_id: 12vt76ia4qnGKV6a56Z5yV1gx1p5QY43wvVkQHegM4P0
+procent: "100"
+when: 2000
+howlong: 100
+height: 8000
+summery: ...  Riot Chat is an homage to kopimi (copyme), a symbol showing that you want to be copied, and a sandbox for an anti-surveillance communication protocol. 
+---
+
+

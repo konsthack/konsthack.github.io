@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Revelopers"
+date: "2012-05-30"
+iframe_id: 1V9vds5Hl7xiGdyurWPqMCLAHxil464zQsGa5oNZa2-8
+procent: "100"
+when: 100
+howlong: 200
+height: 10000
+summery: ... In the fieldwork at the software company, a difference between ideologically and ethically imagined openness and the everyday reality of the production of the business became apparent. Unclear boundaries, forming potential conflicts, occurred between the personal identities and freedom and the structured status of the company. 
+---
+
