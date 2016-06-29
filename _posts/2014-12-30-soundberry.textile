@@ -8,16 +8,6 @@ when: 2400
 howlong: 40
 height: 1000
 ---
-
-# The largest heading
-## The second largest heading
-###### The smallest heading
-
-
-**This text is _extremely_ important**
-
-
-
 ** _Sound Raspberry_ **
 
 ** About **
