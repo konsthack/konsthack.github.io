@@ -25,7 +25,7 @@ height: 1000
  <li>PD0_2</li>
  <ul>
    <li>Test sound Raspberry with Potentiometers</li>
-   <li>Ref |  link:http://workshopweekend.net/arduino/labs/exploring-color[Potentiometer setup Start explore]  </li>
+   <li>Ref | [Potentiometer setup Start explore](http://workshopweekend.net/arduino/labs/exploring-color)</li>
   </ul>
  </ul>
 <hr>
@@ -41,8 +41,7 @@ height: 1000
 <li> PD0_1 </li>
  <ul> 
   <li> Connect Python and Puredata </li>
-  <li>   link:https://github.com/palletorsson/pd_python[Python Puredata Code exemple] 
-</li>
+  <li> [Python Puredata Code exemple](https://github.com/palletorsson/pd_python)</li>
  </ul>
  </ul>
 
