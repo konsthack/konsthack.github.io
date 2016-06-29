@@ -7,5 +7,30 @@ procent: "20"
 when: 2400
 howlong: 40
 height: 1000
-summery: ...
+content: 
+# Soundberry
+# About
+* Raspberry Pi - Includes Pure Data, Arduino, Python, Super collider.
+* ID: PD0, PO1, PD2
+# Log In 
+* User: pi  Password: raspberry
+# Start
+* Starts in console
+# Do:
+** $ sudo startx
+
+# Experiments
+# PD0_2
+* Test sound Raspberry with Potentiometers
+** Ref
+*** http://workshopweekend.net/arduino/labs/exploring-color
+
+
+# Done
+# Experiments
+# PD0_0
+* Install Sound Pi
+# PD0_1
+* Connect Python and Puredata
+
 ---
