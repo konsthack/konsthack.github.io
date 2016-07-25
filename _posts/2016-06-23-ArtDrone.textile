@@ -7,7 +7,10 @@ procent: "100"
 when: 1700
 howlong: 300
 height: 2000
-summery: ...  With DFRI, (Digitala Fri och Rättigheter) and Sparvnästet organized a number of Cryptoparty starting in beginning of 2014 at the art hall, Konsthall C. Cryptoparty had emerged as a reaction to the intensified force of surveillance society.
 ---
+
+<h3> About </h3>
+<p> We have been exploring DIY Drone building </p>
+
 
 
