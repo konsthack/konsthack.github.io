@@ -3,7 +3,7 @@ layout: post
 title: "Art Drone"
 date: "2016-06-23"
 iframe_id: 1HAVCkrXG7FVrIhF0RxH8IJrRUVyHnXwHk7t9FugJTyM
-procent: "100"
+procent: "50"
 when: 1700
 howlong: 300
 height: 2000
