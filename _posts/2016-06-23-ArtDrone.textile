@@ -10,7 +10,7 @@ height: 2000
 ---
 
 <h3> About </h3>
-<p> We have been exploring DIY Drone building </p>
+<p> ... Exploring DIY Drone building. </p>
 
 
 
