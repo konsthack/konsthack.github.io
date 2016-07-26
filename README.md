@@ -1,2 +1,2 @@
 # Konsthack
-A reseach blog for kosntfack hackerspace. 
+A reseach blog for konstfack hackerspace. 
