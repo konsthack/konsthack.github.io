@@ -3,7 +3,7 @@ layout: post
 title: "Text File Archive"
 date: "2016-08-01"
 iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
-procent: "100"
+procent: "10"
 when: 1200
 howlong: 200
 height: 30000
