@@ -3,7 +3,7 @@ layout: post
 title: "WallPlotter"
 date: "2016-06-29"
 iframe_id: 1FpY_28mLcAhF4s6xq5cNjJzFJn-O_SNYaRlLZykd7Go
-procent: "100"
+procent: "10"
 when: 1900
 howlong: 150
 height: 30000
