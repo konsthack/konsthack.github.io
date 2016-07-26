@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "2Bp2p"
-date: "2013-12-02"
-procent: "100"
+title: "Meta"
+date: "2016-07-13"
+procent: "1"
 iframe_id: 10ZkMq0Z3Dmybw77MKw95tbYQNr9KBEOUbvWPHlPrluE
 when: 700
 howlong: 100
@@ -10,3 +10,4 @@ height: 7000
 summery: ... A workshop on the principle of ad-hoc network and democracy and the possibilities and difficulties, they pose.
 ---
 
+<h3> everything else </h3>
