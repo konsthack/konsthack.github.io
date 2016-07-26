@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Whitewashing Piracy"
-date: "2014-05-28"
+title: "WallPlotter"
+date: "2016-06-29"
 iframe_id: 1FpY_28mLcAhF4s6xq5cNjJzFJn-O_SNYaRlLZykd7Go
 procent: "100"
 when: 1900
@@ -9,3 +9,4 @@ howlong: 150
 height: 30000
 summery: ...   The report “Whitewashing piracy” focused on backlash, withdrawal of and reincorporation of the subversive potential of piracy, activism or hacking by commercial, state or free agents.  
 ---
+<H3> Wall Plotter </H3>
