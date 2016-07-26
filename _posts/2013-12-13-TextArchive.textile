@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Learning from Piracy"
-date: "2013-12-13"
+title: "Text File Archive"
+date: "2016-08-01"
 iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
 procent: "100"
 when: 1200
