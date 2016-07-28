@@ -11,3 +11,7 @@ summery: ... A workshop on the principle of ad-hoc network and democracy and the
 ---
 
 <h3> everything else </h3>
+<ul>
+<li> Crypto </li>
+<li> Machine Learning </li>
+</ul>
