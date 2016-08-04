@@ -13,11 +13,11 @@ $( document ).ready(function() {
                     "<div class='alert alert-danger'>" +
                         "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span>" +
                         "<span> "+ obj.tests[i].Status + " </span>" +
-                        "<small> Last update" + obj.tests[i].Date +"</small>"+ 
+                        "<small> Last update: " + obj.tests[i].Date +"</small>"+ 
                         "</div>"+
                     "<div class='progress'>"+
-                        "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='40' aria-valuemin='0' aria-valuemax='100' style='width: 40%'>"+
-                            "<span class='sr-only'>40% Complete (success)</span>"+
+                        "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='" + obj.tests[i].Progress +"' aria-valuemin='0' aria-valuemax='100' style='width: 40%'>"+
+                            "<span class='sr-only'>" + obj.tests[i].Progress +"% Complete (success)</span>"+
                         "</div>"+
                     "</div>"+
                 "</div>";
