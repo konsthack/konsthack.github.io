@@ -10,10 +10,9 @@ $( document ).ready(function() {
                             "</h2><hr>"+
                             "<div class='bs-callout bs-callout-danger'>" + 
                             "<h4>" + obj.tests[i].Assert + 
-                            "</h4><div class='alert alert-anger'>" +
-                            "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'>"+ 
-                            obj.tests[i].Status +
-                            "</span></div></div>";
+                            "</h4><div class='alert alert-danger'>" +
+                            "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span>" +
+                             obj.tests[i].Status + "</div></div>";
         });
         $(".test-target").html(html_str); 
 });
