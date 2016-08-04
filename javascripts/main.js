@@ -24,7 +24,8 @@ $( document ).ready(function() {
                 if (obj.tests[i].Images.length > 0) {
                     html_str = html_str + "<div>"
                     $.each(obj.tests.Images, function(i, item) {
-                    html_str = html_str + "<img src="+item+" >";
+                        html_str = html_str + "<img src="+item+" >";
+                    }
                     html_str = html_str + "</div>"
 
                 } else {
