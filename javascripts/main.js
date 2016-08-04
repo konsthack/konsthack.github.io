@@ -5,11 +5,9 @@ $( document ).ready(function() {
         obj = jQuery.parseJSON( parsed );
         var html_str = ''
         $.each(obj.tests, function(i, item) {
-            html_str = html_str + "<div><p>"+  obj.tests[i].testName + "<small>"+ obj.tests[i].Status +"</small></p><hr><p>"+ obj.tests[i].Assert + "</p></div>"";
+            html_str = html_str + "<div><p>"+  obj.tests[i].testName + "<small>"+ obj.tests[i].Status +"</small></p><hr><p>"+ obj.tests[i].Assert + "</p></div>";
         });
-    console.log(html_str);
-    $(".test-target").html(html_str); 
- 
+        $(".test-target").html(html_str); 
 });
 
 
