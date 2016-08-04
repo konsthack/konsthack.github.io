@@ -22,7 +22,7 @@ $( document ).ready(function() {
                     "</div>"+
                 "</div>";
                 if (obj.tests[i].Images.length > 1) {
-                    console.log("images")
+                    html_str = html_str + "<div> Images !!</div>";
                 } else {
                     console.log("no images")
                 }
