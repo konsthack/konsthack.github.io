@@ -5,10 +5,7 @@ $( document ).ready(function() {
         obj = jQuery.parseJSON( parsed );
         var html_str = ''
         $.each(obj.tests, function(i, item) {
-            html_str = html_str + "<div><h2>"+  obj.tests[i].testName + "</h2><hr><p>"+ obj.tests[i].Assert + "</p><hr><small>"+ obj.tests[i].Status +"</small></div>";
+            html_str = html_str + "<div><h2>"+  obj.tests[i].testName + "</h2><hr><div class='bs-callout bs-callout-danger'>"+ obj.tests[i].Assert + "</div><hr><small>"+ obj.tests[i].Status +"</small></div>";
         });
         $(".test-target").html(html_str); 
 });
-
-
-
