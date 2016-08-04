@@ -9,10 +9,10 @@ $( document ).ready(function() {
         $.each(obj.tests, function(i, item) {
             html_str = html_str + 
             "<div class='bs-callout bs-callout-danger'>" + 
-            "<h3>"+ title + "_Test_" + l + ": "+ obj.tests[i].testName + 
+            "<h4>"+ title + "_Test_" + l + ": "+ obj.tests[i].testName + 
              " | <small> Last update: " + obj.tests[i].Date +"</small>"+ 
-            "</h3><hr>"+
-            "<h4>Assertion: " + obj.tests[i].Assert + "</h4><hr>"+
+            "</h4><hr>"+
+            "<h5>Assertion: " + obj.tests[i].Assert + "</h5><hr>"+
                 "<div class='alert alert-danger'>" +
                     "<span> Progress: " + obj.tests[i].Progression + "%</span> | " +
                     "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span> | " +
