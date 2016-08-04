@@ -10,7 +10,6 @@ height: 10000
 summery: ... The report points to how networked possibilities are inherently ambiguous and how this is something, where constant detours are necessary - jumping between different standpoint is important to reproduce creativity.  
 ---
 
-<div class="test-target"></div>
 <div class="bs-docs-example">
             <div class="media">
               <a class="pull-left" href="#">
