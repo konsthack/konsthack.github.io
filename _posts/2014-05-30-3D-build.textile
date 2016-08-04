@@ -6,21 +6,21 @@ summery: ... I was able to develop thinking about how open hardware creates cond
 json: {"tests":[
         {   "testName":"Printing Tweeks", 
             "Date":"2016-03-20",
-            "Status":"Halt",
-            "Progression":"80",
-            "Assert":"Build the thing" 
+            "Status":"In progress",
+            "Progression":"60",
+            "Assert":"The print are not good enough - We can tweak the Printer to make better prints" 
         },
         {   "testName":"Electronics and motor control", 
             "Date":"2016-03-30",
             "Status":"Success",  
             "Progression":"100",
-            "Assert":"Think on it" 
+            "Assert":"From the instruction we can wire the electrics in three weeks" 
         },
         {   "testName":"Construction and Assemblage", 
             "Date":"2016-04-20",
             "Status":"Success",
             "Progression":"100",
-            "Assert":"Bring the noice"
+            "Assert":"We can assemble the mechanical parts of 3D Printer Together in a two weeks"
         }
     ]}
 ---
