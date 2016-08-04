@@ -9,7 +9,7 @@ json: {"tests":[
             "Status":"In progress",
             "Progression":"60",
             "Assert":"The prints are not good enough - We can tweak the Printer to make better prints",
-            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/k8200.jpg"],  
+            "Images": [],  
             "Links": []
         },
         {   "testName":"Electronics and motor control", 
@@ -17,7 +17,7 @@ json: {"tests":[
             "Status":"Success",  
             "Progression":"100",
             "Assert":"From the instruction we can wire the electrics in three weeks",
-            "Images": [],  
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/k8200.jpg"], 
             "Links": []
         },
         {   "testName":"Construction and Assemblage", 
