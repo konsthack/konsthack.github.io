@@ -22,7 +22,7 @@ $( document ).ready(function() {
                     "</div>"+
                 "</div>";
                 if (obj.tests[i].Images.length > 0) {
-                    html_str = html_str + "<div>";
+                    html_str = html_str + "<hr><div>";
                     $.each(obj.tests[i].Images, function(i, item) {
                         html_str = html_str + "<img src="+item+" width='400px' >";
                     });
