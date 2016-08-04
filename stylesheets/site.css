@@ -348,8 +348,8 @@ width: 800px;
 @media (max-width: 560px) {
  .container {
  padding-right: 1px;
- padding-left: 1px;
- margin-right: -40px; 
+ padding-left: 5px;
+ margin-right: -17px; 
  margin-left: -4px; 
 
 }
