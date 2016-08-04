@@ -2,7 +2,7 @@
 layout: post
 title: "3D build"
 date: "2016-05-30"
-summery: ... I was able to develop thinking about how open hardware creates conditions for peer relations organized in open projects and how partnerships play on the border of trust and creativity. 
+summery: ... We are exploring the build of the K8200 3d printer. 
 json: {"tests":[
         {   "testName":"Printing Tweeks", 
             "Date":"2016-04-20",
