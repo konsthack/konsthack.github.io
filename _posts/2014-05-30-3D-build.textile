@@ -2,11 +2,6 @@
 layout: post
 title: "3D build"
 date: "2016-05-30"
-iframe_id: 12vt76ia4qnGKV6a56Z5yV1gx1p5QY43wvVkQHegM4P0
-procent: "90"
-when: 2000
-howlong: 100
-height: 8000
 summery: ... I was able to develop thinking about how open hardware creates conditions for peer relations organized in open projects and how partnerships play on the border of trust and creativity. 
 json: {"tests":[
         {   "testName":"Construction and Assemblage", 
@@ -17,7 +12,7 @@ json: {"tests":[
             "Status":"Success",  
             "Assert":"Think on it" 
         },
-        {   "testName":"Print Tweeks", 
+        {   "testName":"Printing Tweeks", 
             "Status":"Success",  
             "Assert":"Bring the noice"
         }
