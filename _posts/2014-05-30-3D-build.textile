@@ -8,7 +8,7 @@ json: {"tests":[
             "Date":"2016-03-20",
             "Status":"In progress",
             "Progression":"60",
-            "Assert":"The print are not good enough - We can tweak the Printer to make better prints" 
+            "Assert":"The prints are not good enough - We can tweak the Printer to make better prints" 
         },
         {   "testName":"Electronics and motor control", 
             "Date":"2016-03-30",
