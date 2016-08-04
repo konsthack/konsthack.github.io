@@ -39,10 +39,10 @@ summery: ...  Riot Chat is an homage to kopimi (copyme), a symbol showing that y
             </div>
           </div>
 
-<div class="bs-callout bs-callout-danger" id="callout-overview-not-both"> <h4>Using the compiled JavaScript</h4> <p>Both <code>bootstrap.js</code> and <code>bootstrap.min.js</code> contain all plugins in a single file. Include only one.</p> </div>
+<div class="bs-callout bs-callout-primary" id="callout-overview-not-both"> <h4>Using the compiled JavaScript</h4> <p>Both <code>bootstrap.js</code> and <code>bootstrap.min.js</code> contain all plugins in a single file. Include only one.</p> </div>
 <div class="bs-callout bs-callout-danger" id="callout-overview-single-data"> <h4>Only one plugin per element via data attributes</h4> <p>Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p> </div>
 
-<div class="bs-callout bs-callout-danger" id="callout-overview-single-data"> <h4>Only one plugin per element via data attributes</h4> <p>Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p> </div>
+<div class="bs-callout bs-callout-success" id="callout-overview-single-data"> <h4>Only one plugin per element via data attributes</h4> <p>Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p> </div>
 
 
 <div class="row">
