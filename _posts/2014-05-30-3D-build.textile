@@ -24,4 +24,5 @@ json: {"tests":[
         }
     ]}
 ---
-<h5>hello</h5>
+
+<div class="test-target"></div>
