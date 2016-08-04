@@ -12,9 +12,9 @@ summery: ...  Riot Chat is an homage to kopimi (copyme), a symbol showing that y
 
 Copy
 <div class="jumbotron">
-  <h1>Hello, world!</h1>
-  <p>...</p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  <h1>3D build</h1>
+  <p>Riot Chat is an homage to kopimi (copyme), a symbol showing that you want to be copied, and a sandbox for an anti-surveillance communication protocol. </p>
+
 </div>
 
 <div class="bs-docs-example">
