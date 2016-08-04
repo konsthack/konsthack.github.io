@@ -7,7 +7,7 @@ $( document ).ready(function() {
         $.each(obj.tests, function(i, item) {
             html_str = html_str + data[i].testName;
         });
-        
+    console.log(html_str);
     $(".test-target").html(html_str); 
  
 });
