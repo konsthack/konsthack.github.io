@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
     console.log( "ready!" );
-    ("=>").replaceAll(":");
+    $("=>").replaceAll(":");
    
     var some_json = $(".jsoncontent").text(); 
     
