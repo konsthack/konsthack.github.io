@@ -16,8 +16,8 @@ $( document ).ready(function() {
                         "<small> Last update: " + obj.tests[i].Date +"</small>"+ 
                         "</div>"+
                     "<div class='progress'>"+
-                        "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='" + obj.tests[i].Progress +"' aria-valuemin='0' aria-valuemax='100' style='width: 40%'>"+
-                            "<span class='sr-only'>" + obj.tests[i].Progress +"% Complete (success)</span>"+
+                        "<div class='progress-bar progress-bar-success progress-bar-striped' role='progressbar' aria-valuenow='" + obj.tests[i].Progression +"' aria-valuemin='0' aria-valuemax='100' style='width:" + obj.tests[i].Progression +"%'>"+
+                            "<span class='sr-only'>" + obj.tests[i].Progression +"% Complete (success)</span>"+
                         "</div>"+
                     "</div>"+
                 "</div>";
