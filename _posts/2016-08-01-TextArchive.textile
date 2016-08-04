@@ -11,6 +11,6 @@ summery: ... Questions focused on a possible lack and the inability of knowledge
 ---
 
 <ul>
-<li><span class="badge badge-important">Error</span> </li>
-<li><span class="badge badge-success">Success</span></li>
+<li><span class="label badge-important">Error</span> </li>
+<li><span class="label badge-success">Success</span></li>
 </ul>
