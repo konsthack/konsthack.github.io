@@ -21,7 +21,7 @@ $( document ).ready(function() {
                         "<span class='sr-only'>" + obj.tests[i].Progression +"% Complete (success)</span>"+
                     "</div>"+
                 "</div>";
-                if (obj.tests[i].Images.length > 1) {
+                if (obj.tests[i].Images.length > 0) {
                     html_str = html_str + "<div> Images !!</div>";
                 } else {
                     console.log("no images")
