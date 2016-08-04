@@ -14,7 +14,7 @@ json: {"tests":[
     {"testName":"test3", "Status":"Jones",  "Assert":"Bring the noice"}
     ]}
 ---
-
+<div class="test-target"></div>
 <div class="bs-docs-example">
             <div class="media">
               <a class="pull-left" href="#">
