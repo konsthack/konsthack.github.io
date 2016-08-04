@@ -9,9 +9,18 @@ howlong: 100
 height: 8000
 summery: ... I was able to develop thinking about how open hardware creates conditions for peer relations organized in open projects and how partnerships play on the border of trust and creativity. 
 json: {"tests":[
-    {"testName":"test1", "Status":"Error",  "Assert":"Build a thing"},
-    {"testName":"test2", "Status":"Smith",  "Assert":"Think on it"},
-    {"testName":"test3", "Status":"Jones",  "Assert":"Bring the noice"}
+        {   "testName":"test1", 
+            "Status":"Error",  
+            "Assert":"Build a thing" 
+        },
+        {   "testName":"test2", 
+            "Status":"Success",  
+            "Assert":"Think on it" },
+
+        {   "testName":"test3", 
+            "Status":"Success",  
+            "Assert":"Bring the noice"
+        }
     ]}
 ---
 <div class="test-target"></div>
