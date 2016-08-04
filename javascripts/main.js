@@ -4,7 +4,7 @@ $( document ).ready(function() {
         parsed = some_json.replace(/=>/g, ':'), 
         obj = jQuery.parseJSON( parsed );
         var html_str = ""
-        var l = obj.tests.length + 1
+        var l = obj.tests.length;
         $.each(obj.tests, function(i, item) {
             html_str = html_str + 
             "<div class='bs-callout bs-callout-danger'>" + 
@@ -31,10 +31,10 @@ $( document ).ready(function() {
                     html_str = html_str + "</div>";
 
                 } else {
-                    console.log("no images")
+                    console.log("no images");
                 }
             html_str = html_str + "</div>";
-            l = l - 1
+            l = l - 1;
         });
         $(".test-target").html(html_str); 
 });
