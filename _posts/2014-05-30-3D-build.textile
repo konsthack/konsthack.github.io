@@ -7,13 +7,8 @@ procent: "90"
 when: 2000
 howlong: 100
 height: 8000
-summery: ...  Riot Chat is an homage to kopimi (copyme), a symbol showing that you want to be copied, and a sandbox for an anti-surveillance communication protocol. 
+summery: ... I was able to develop thinking about how open hardware creates conditions for peer relations organized in open projects and how partnerships play on the border of trust and creativity. 
 ---
-<div class="jumbotron">
-  <h1>3D build</h1>
-  <p>Riot Chat is an homage to kopimi (copyme), a symbol showing that you want to be copied, and a sandbox for an anti-surveillance communication protocol. </p>
-
-</div>
 
 <div class="bs-docs-example">
             <div class="media">
