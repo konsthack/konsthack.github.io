@@ -5,7 +5,7 @@ $( document ).ready(function() {
         obj = jQuery.parseJSON( parsed );
         var html_str = ''
         $.each(obj.tests, function(i, item) {
-            html_str = html_str + data[i].testName;
+            html_str = html_str + obj.tests[i].testName;
         });
     console.log(html_str);
     $(".test-target").html(html_str); 
