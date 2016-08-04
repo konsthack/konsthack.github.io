@@ -9,7 +9,7 @@ $( document ).ready(function() {
                 "<h3>" + obj.tests[i].testName + 
                 "</h3><hr>"+
                 "<div class='bs-callout bs-callout-danger'>" + 
-                "<h4>Assertion: " + obj.tests[i].Assert + "</h4>"+
+                "<h4>Assertion: " + obj.tests[i].Assert + "</h4><hr>"+
                 
                     "<div class='alert alert-danger'>" +
                         "<span> Progress: " + obj.tests[i].Progression + "%</span> | " +
