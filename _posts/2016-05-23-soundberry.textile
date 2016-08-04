@@ -4,10 +4,10 @@ title: "Sound_Raspberry"
 date: "2016-05-23"
 procent: "20"
 img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
-summery: Satellite CCRMA and This Raspberry Pi - Includes Pure Data, Arduino, Python and Supercollider. Satellite CCRMA is a platform for building embedded musical instruments and embedded art installations by Edgar Berdahl and Wendy Ju.</li>
-<li> <a href="https://ccrma.stanford.edu/~eberdahl/Satellite/">The Satellite CCRMA Project</a> </li>
+summery: Satellite CCRMA and This Raspberry Pi - Includes Pure Data, Arduino, Python and Supercollider. Satellite CCRMA is a platform for building embedded musical instruments and embedded art installations by Edgar Berdahl and Wendy Ju. https://ccrma.stanford.edu/~eberdahl/Satellite/ 
 ---
 
+<div class="test-target"></div>
 
 <h3> About </h3>
 <hr>
