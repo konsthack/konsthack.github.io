@@ -5,15 +5,21 @@ date: "2016-05-30"
 summery: ... I was able to develop thinking about how open hardware creates conditions for peer relations organized in open projects and how partnerships play on the border of trust and creativity. 
 json: {"tests":[
         {   "testName":"Printing Tweeks", 
-            "Status":"Success",  
+            "Date":"2016-03-20",
+            "Status":"Halt",
+            "Progresses":"80",
             "Assert":"Build the thing" 
         },
         {   "testName":"Electronics and motor control", 
+            "Date":"2016-03-30",
             "Status":"Success",  
+            "Progresses":"100",
             "Assert":"Think on it" 
         },
         {   "testName":"Construction and Assemblage", 
-            "Status":"Success",  
+            "Date":"2016-04-20",
+            "Status":"Success",
+            "Progresses":"100",
             "Assert":"Bring the noice"
         }
     ]}
