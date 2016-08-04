@@ -7,7 +7,7 @@ $( document ).ready(function() {
         $.each(obj.tests, function(i, item) {
             html_str = html_str + 
             "<div class='bs-callout bs-callout-danger'>" + 
-            "<h3>Test: " + obj.tests[i].testName + 
+            "<h3>Test_" + i + ": "+ obj.tests[i].testName + 
              " | <small> Last update: " + obj.tests[i].Date +"</small>"+ 
             "</h3><hr>"+
             "<h4>Assertion: " + obj.tests[i].Assert + "</h4><hr>"+
