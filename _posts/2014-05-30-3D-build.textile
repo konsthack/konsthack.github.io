@@ -9,7 +9,7 @@ json: {"tests":[
             "Status":"In progress",
             "Progression":"60",
             "Assert":"The prints are not good enough - We can tweak the Printer to make better prints",
-            "Images": [],  
+            "Images": ["hej.jpg"],  
             "Links": []
         },
         {   "testName":"Electronics and motor control", 
