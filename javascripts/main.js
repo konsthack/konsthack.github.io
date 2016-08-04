@@ -10,7 +10,6 @@ $( document ).ready(function() {
                 "<h3>Test: " + obj.tests[i].testName + 
                 "</h3><hr>"+
                 "<h4>Assertion: " + obj.tests[i].Assert + "</h4><hr>"+
-                
                     "<div class='alert alert-danger'>" +
                         "<span> Progress: " + obj.tests[i].Progression + "%</span> | " +
                         "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span> | " +
