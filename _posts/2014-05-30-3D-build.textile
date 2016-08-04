@@ -9,7 +9,7 @@ json: {"tests":[
             "Status":"In progress",
             "Progression":"60",
             "Assert":"The prints are not good enough - We can tweak the Printer to make better prints",
-            "Images": ["hej.jpg"],  
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/k8200.jpg"],  
             "Links": []
         },
         {   "testName":"Electronics and motor control", 
