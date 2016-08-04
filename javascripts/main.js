@@ -4,10 +4,11 @@ $( document ).ready(function() {
         parsed = some_json.replace(/=>/g, ':'), 
         obj = jQuery.parseJSON( parsed );
         var html_str = ""
+        var l = obj.tests.length + 1
         $.each(obj.tests, function(i, item) {
             html_str = html_str + 
             "<div class='bs-callout bs-callout-danger'>" + 
-            "<h3>Test_" + i + ": "+ obj.tests[i].testName + 
+            "<h3>Test_" + l + ": "+ obj.tests[i].testName + 
              " | <small> Last update: " + obj.tests[i].Date +"</small>"+ 
             "</h3><hr>"+
             "<h4>Assertion: " + obj.tests[i].Assert + "</h4><hr>"+
@@ -33,6 +34,7 @@ $( document ).ready(function() {
                     console.log("no images")
                 }
             html_str = html_str + "</div>";
+            l = l - 1
         });
         $(".test-target").html(html_str); 
 });
