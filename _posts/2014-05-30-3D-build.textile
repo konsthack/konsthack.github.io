@@ -9,8 +9,6 @@ howlong: 100
 height: 8000
 summery: ...  Riot Chat is an homage to kopimi (copyme), a symbol showing that you want to be copied, and a sandbox for an anti-surveillance communication protocol. 
 ---
-
-Copy
 <div class="jumbotron">
   <h1>3D build</h1>
   <p>Riot Chat is an homage to kopimi (copyme), a symbol showing that you want to be copied, and a sandbox for an anti-surveillance communication protocol. </p>
