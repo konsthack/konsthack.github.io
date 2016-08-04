@@ -7,19 +7,19 @@ json: {"tests":[
         {   "testName":"Printing Tweeks", 
             "Date":"2016-03-20",
             "Status":"Halt",
-            "Progresses":"80",
+            "Progression":"80",
             "Assert":"Build the thing" 
         },
         {   "testName":"Electronics and motor control", 
             "Date":"2016-03-30",
             "Status":"Success",  
-            "Progresses":"100",
+            "Progression":"100",
             "Assert":"Think on it" 
         },
         {   "testName":"Construction and Assemblage", 
             "Date":"2016-04-20",
             "Status":"Success",
-            "Progresses":"100",
+            "Progression":"100",
             "Assert":"Bring the noice"
         }
     ]}
