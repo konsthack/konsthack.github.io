@@ -8,19 +8,25 @@ json: {"tests":[
             "Date":"2016-04-20",
             "Status":"In progress",
             "Progression":"60",
-            "Assert":"The prints are not good enough - We can tweak the Printer to make better prints" 
+            "Assert":"The prints are not good enough - We can tweak the Printer to make better prints",
+            "Images": [],  
+            "Links": []
         },
         {   "testName":"Electronics and motor control", 
             "Date":"2016-03-30",
             "Status":"Success",  
             "Progression":"100",
-            "Assert":"From the instruction we can wire the electrics in three weeks" 
+            "Assert":"From the instruction we can wire the electrics in three weeks",
+            "Images": [],  
+            "Links": []
         },
         {   "testName":"Construction and Assemblage", 
             "Date":"2016-02-20",
             "Status":"Success",
             "Progression":"100",
-            "Assert":"We can assemble the mechanical parts of 3D Printer Together in a two weeks"
+            "Assert":"We can assemble the mechanical parts of 3D Printer Together in a two weeks",
+            "Images": [],  
+            "Links": []
         }
     ]}
 ---
