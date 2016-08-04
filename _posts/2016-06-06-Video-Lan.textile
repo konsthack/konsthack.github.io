@@ -10,3 +10,54 @@ height: 10000
 summery: ... The report points to how networked possibilities are inherently ambiguous and how this is something, where constant detours are necessary - jumping between different standpoint is important to reproduce creativity.  
 ---
 
+<div class="test-target"></div>
+<div class="bs-docs-example">
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 128px; height: 128px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACX0lEQVR4Xu2Y26tpURTGP9sl8UBJHpDLAxIPeFD+e5Rco+SBFKVIsdzv4TRGbZ1zHvY629qnvbPGLGU1M+Ya3/jG+C3LoCjKHTpeBhFAHCAtIDNAxzMQMgSFAkIBoYBQQCigYwUEg4JBwaBgUDCoYwjInyHBoGBQMCgYFAwKBnWsgGBQKwYvlwt6vR5msxne3t4QDofh9Xr/8NRoNEK320UymYTH4/nQb18dT83cmh3QbDaxWCwQjUahKAqm0ylyuRxsNhufvVqt0Gg0cLvd/kmAr473XwWgauXzea4qVZeuD4cD7HY7jEYjX1cqFVgsFqzX64cAlOR8Pkc6nYbZbEatVoPD4eD9QqHw6XhqSX60r8kBVF26eafTidPphPv9jkAgAL/fz2e2Wi0WgdqCkn5vgfP5zMIYDIaHUNlsFsfj8al43y6A1WpFIpHgOTAcDrmyVPHBYMDfKbF2u414PM7VJXdQ21Br0EqlUnC5XNwuJOgz8Z4VQZMDqOrFYvFh2f1+j1KphEgkwrOAEvp7xWIx+Hw+TCYTdDod3iaH0EdLvG8RgA6t1+vYbrec9HK5xHg8RiaTYXtfr1e+r81mg36/j1AoxISggVitVnlWmEwmHp70G2qlZ+KRY55dmhxAh1LVCHE01GigBYNBrvDvi/beZ4Db7eYkd7sdqO8JneVymYWgaxLnM/HUsKomjGYB1A746fsigNYnwZ9eYbX7EweIA+SVmLwSk1diapPylfeFAkIBoYBQQCjwylNeLTehgFBAKCAUEAqoTcpX3hcKCAWEAkIBocArT3m13HRPgV96R1efjJvNNgAAAABJRU5ErkJggg==">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 128px; height: 128px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACX0lEQVR4Xu2Y26tpURTGP9sl8UBJHpDLAxIPeFD+e5Rco+SBFKVIsdzv4TRGbZ1zHvY629qnvbPGLGU1M+Ya3/jG+C3LoCjKHTpeBhFAHCAtIDNAxzMQMgSFAkIBoYBQQCigYwUEg4JBwaBgUDCoYwjInyHBoGBQMCgYFAwKBnWsgGBQKwYvlwt6vR5msxne3t4QDofh9Xr/8NRoNEK320UymYTH4/nQb18dT83cmh3QbDaxWCwQjUahKAqm0ylyuRxsNhufvVqt0Gg0cLvd/kmAr473XwWgauXzea4qVZeuD4cD7HY7jEYjX1cqFVgsFqzX64cAlOR8Pkc6nYbZbEatVoPD4eD9QqHw6XhqSX60r8kBVF26eafTidPphPv9jkAgAL/fz2e2Wi0WgdqCkn5vgfP5zMIYDIaHUNlsFsfj8al43y6A1WpFIpHgOTAcDrmyVPHBYMDfKbF2u414PM7VJXdQ21Br0EqlUnC5XNwuJOgz8Z4VQZMDqOrFYvFh2f1+j1KphEgkwrOAEvp7xWIx+Hw+TCYTdDod3iaH0EdLvG8RgA6t1+vYbrec9HK5xHg8RiaTYXtfr1e+r81mg36/j1AoxISggVitVnlWmEwmHp70G2qlZ+KRY55dmhxAh1LVCHE01GigBYNBrvDvi/beZ4Db7eYkd7sdqO8JneVymYWgaxLnM/HUsKomjGYB1A746fsigNYnwZ9eYbX7EweIA+SVmLwSk1diapPylfeFAkIBoYBQQCjwylNeLTehgFBAKCAUEAqoTcpX3hcKCAWEAkIBocArT3m13HRPgV96R1efjJvNNgAAAABJRU5ErkJggg==">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                <div class="media">
+                  <a class="pull-left" href="#">
+                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 128px; height: 128px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACX0lEQVR4Xu2Y26tpURTGP9sl8UBJHpDLAxIPeFD+e5Rco+SBFKVIsdzv4TRGbZ1zHvY629qnvbPGLGU1M+Ya3/jG+C3LoCjKHTpeBhFAHCAtIDNAxzMQMgSFAkIBoYBQQCigYwUEg4JBwaBgUDCoYwjInyHBoGBQMCgYFAwKBnWsgGBQKwYvlwt6vR5msxne3t4QDofh9Xr/8NRoNEK320UymYTH4/nQb18dT83cmh3QbDaxWCwQjUahKAqm0ylyuRxsNhufvVqt0Gg0cLvd/kmAr473XwWgauXzea4qVZeuD4cD7HY7jEYjX1cqFVgsFqzX64cAlOR8Pkc6nYbZbEatVoPD4eD9QqHw6XhqSX60r8kBVF26eafTidPphPv9jkAgAL/fz2e2Wi0WgdqCkn5vgfP5zMIYDIaHUNlsFsfj8al43y6A1WpFIpHgOTAcDrmyVPHBYMDfKbF2u414PM7VJXdQ21Br0EqlUnC5XNwuJOgz8Z4VQZMDqOrFYvFh2f1+j1KphEgkwrOAEvp7xWIx+Hw+TCYTdDod3iaH0EdLvG8RgA6t1+vYbrec9HK5xHg8RiaTYXtfr1e+r81mg36/j1AoxISggVitVnlWmEwmHp70G2qlZ+KRY55dmhxAh1LVCHE01GigBYNBrvDvi/beZ4Db7eYkd7sdqO8JneVymYWgaxLnM/HUsKomjGYB1A746fsigNYnwZ9eYbX7EweIA+SVmLwSk1diapPylfeFAkIBoYBQQCjwylNeLTehgFBAKCAUEAqoTcpX3hcKCAWEAkIBocArT3m13HRPgV96R1efjJvNNgAAAABJRU5ErkJggg==">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Media heading</h4>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<div class="bs-callout bs-callout-primary" id="callout-overview-not-both"> <h4>Using the compiled JavaScript</h4> <p>Both <code>bootstrap.js</code> and <code>bootstrap.min.js</code> contain all plugins in a single file. Include only one.</p> </div>
+<div class="bs-callout bs-callout-danger" id="callout-overview-single-data"> <h4>Only one plugin per element via data attributes</h4> <p>Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p> </div>
+
+<div class="bs-callout bs-callout-success" id="callout-overview-single-data"> <h4>Only one plugin per element via data attributes</h4> <p>Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p> </div>
+
+
+<div class="row">
+  <div class="col-md-8">.col-md-8</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+
+
+<div class="bs-example bs-example-bg-classes" data-example-id="contextual-backgrounds-helpers"> <p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p> <p class="bg-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p> <p class="bg-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p> <p class="bg-warning">Etiam porta sem malesuada magna mollis euismod.</p> <p class="bg-danger">Donec ullamcorper nulla non metus auctor fringilla.</p> </div>
+
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error</span>
+</div>
+
+<div class="bs-example" data-example-id="simple-jumbotron"> <div class="jumbotron"> <h1>Hello, world!</h1> <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more</a></p> </div> </div>
