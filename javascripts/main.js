@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
     var some_json = $(".jsoncontent").text(); 
-    some_json.replace(/=>/g, ":"); 
+    some_json.replace(/\=>/g, ":"); 
     console.log( some_json );
     var obj = jQuery.parseJSON( some_json );
     console.log( obj.tests );
