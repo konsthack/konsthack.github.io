@@ -8,9 +8,9 @@ json: {"tests":[
         {   "testName":"Video Playback Clients", 
             "Date":"2016-01-20",
             "Status":"In Progress",
-            "Progression":"90",
+            "Progression":"70",
             "Comments": ["Using", "A lan modem or router", "A number of Raspberry pi:s, one as server and other as playback clients", "See links for code and instructions"],
-            "Assert":"Playback video files for a lan connection",
+            "Assert":"Sync and Playback video files on lan connectioned Raspberry pi:s",
             "Images": [],  
             "Links": ["https://github.com/palletorsson/pi-jockey", ]
         }
