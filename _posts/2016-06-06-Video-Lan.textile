@@ -3,6 +3,18 @@ layout: post
 title: "Video Lan"
 date: "2016-06-06"
 procent: "30"
-summery: ... The report points to how networked possibilities are inherently ambiguous and how this is something, where constant detours are necessary - jumping between different standpoint is important to reproduce creativity.  
+summery: ... .  
+json: {"tests":[
+        {   "testName":"Video Playback Clients", 
+            "Date":"2016-01-20",
+            "Status":"In Progress",
+            "Progression":"90",
+            "Comments": ["Using", "A lan modem or router", "A number of Raspberry pi:s, one as server and other as playback clients", "See links for code and instructions"],
+            "Assert":"Playback video files for a lan connection",
+            "Images": [],  
+            "Links": ["https://github.com/palletorsson/pi-jockey", ]
+        }
+    ]}
 ---
+<div class="test-target"></div>
 
