@@ -11,7 +11,7 @@ $( document ).ready(function() {
             "<div class='bs-callout bs-callout-"; 
             
                 if (obj.tests[i].Status == "Success") {
-                    html_str = html_str +"info'>"; 
+                    html_str = html_str +"success'>"; 
                     console.log("suss"); 
                 } else {
                     html_str = html_str +"danger'>"; 
