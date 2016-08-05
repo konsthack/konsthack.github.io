@@ -11,10 +11,10 @@ $( document ).ready(function() {
             "<div class='bs-callout bs-callout-"; 
             
                 if (obj.tests[i].Status == "Success") {
-                    html_str = html_str +'info>'; 
+                    html_str = html_str +"info'>"; 
                     console.log("suss"); 
                 } else {
-                    html_str = html_str +'danger>'; 
+                    html_str = html_str +"danger'>"; 
                 }    
             
             html_str = html_str + 
@@ -25,9 +25,9 @@ $( document ).ready(function() {
             "<div class='alert alert-";
                 
                 if (obj.tests[i].Status == "Success") {
-                    html_str = html_str +'info>'; }
+                    html_str = html_str +"info'>"; }
                 else {
-                    html_str = html_str +'danger>'; 
+                    html_str = html_str +"danger'>"; 
                 }                
                 
                 html_str = html_str + 
