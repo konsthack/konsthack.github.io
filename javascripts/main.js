@@ -26,7 +26,7 @@ $( document ).ready(function() {
                 "</div>";
                 if (obj.tests[i].Comments.length > 0) {
                     html_str = html_str + "<hr><div>";
-                    $.each(obj.tests[i].Links, function(i, item) {
+                    $.each(obj.tests[i].Comments, function(i, item) {
                         html_str = html_str + item + " | ";
                     });
                     html_str = html_str + "</div><hr>";
@@ -37,7 +37,7 @@ $( document ).ready(function() {
                 if (obj.tests[i].Links.length > 0) {
                     html_str = html_str + "<hr><div>";
                     $.each(obj.tests[i].Links, function(i, item) {
-                        html_str = html_str + "<a href="+item+">item</a>";
+                        html_str = html_str + "<a href="+item+">"+item+"</a>";
                     });
                     html_str = html_str + "</div><hr>";
                 } else {
