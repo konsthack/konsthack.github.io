@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}	
+<ul>
+{% for post in site.posts %}
+
 	{% for post in post.json %}	
-		{{ post[1] }}
+	<li>	{{ post.test[1] }} </li>
 	{% endfor %}
 {% endfor %}
-
+</ul>
 
