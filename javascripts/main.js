@@ -10,7 +10,7 @@ $( document ).ready(function() {
             html_str = html_str + 
             "<div class='bs-callout bs-callout-"; 
             
-                if (obj.tests[i].Progression == "Success") {
+                if (obj.tests[i].Status == "Success") {
                     html_str = html_str +'info>'; 
                     
                 } else {
@@ -24,7 +24,7 @@ $( document ).ready(function() {
                 "<h5>Assertion: " + obj.tests[i].Assert + "</h5><hr>"+
                 "<div class='alert alert-";
                 
-                if (obj.tests[i].Progression == "Success") {
+                if (obj.tests[i].Status == "Success") {
                     html_str = html_str +'info>'; }
                 else {
                     html_str = html_str +'danger>'; 
