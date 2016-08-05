@@ -8,13 +8,29 @@ $( document ).ready(function() {
         var title = $(".page_title").text().trim() || "love";
         $.each(obj.tests, function(i, item) {
             html_str = html_str + 
-            "<div class='bs-callout bs-callout-danger'>" + 
-            "<h4>T_" + l + ": "+ obj.tests[i].testName + 
-             " | <small> Last update: " + obj.tests[i].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
-            "</h4><hr>"+
-            "<h5>Assertion: " + obj.tests[i].Assert + "</h5><hr>"+
-                "<div class='alert alert-danger'>" +
-                    "<span class="progress"> Progress: " + obj.tests[i].Progression + "%</span> | " +
+            "<div class='bs-callout bs-callout-'; 
+            
+                if (obj.tests[i].Progression == "Success") {
+                    html_str = html_str +'info>'; }
+                else {
+                    html_str = html_str +'danger>'; 
+                }    
+            
+                html_str = html_str + 
+                "<h4>T_" + l + ": "+ obj.tests[i].testName + 
+                 " | <small> Last update: " + obj.tests[i].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
+                "</h4><hr>"+
+                "<h5>Assertion: " + obj.tests[i].Assert + "</h5><hr>"+
+                    "<div class='alert alert-";
+                
+                if (obj.tests[i].Progression == "Success") {
+                    html_str = html_str +'info>'; }
+                else {
+                    html_str = html_str +'danger>'; 
+                }                
+                
+                html_str = html_str + 
+                    "<span > Progress: " + obj.tests[i].Progression + "%</span> | " +
                     "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span> | " +
                     "<span> "+ obj.tests[i].Status + " </span> | " +
                     "<small> Last update: " + obj.tests[i].Date +"</small>"+ 
