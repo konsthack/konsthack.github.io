@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Video Lan"
+title: "Sync_Lan"
 date: "2016-06-06"
-procent: "30"
+procent: "50"
 summery: ... Lets make a networking solutions for media control with Raspberry Pi.  
 json: {"tests":[
         {   "testName":"Video Playback Clients", 
