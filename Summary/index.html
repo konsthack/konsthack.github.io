@@ -2,9 +2,9 @@
 layout: default
 ---
 {% for post in site.posts %}	
-	{{ post.json }}
-
-	
+	{% for post in post.json %}	
+		{{ post[1] }}
+	{% endfor %}
 {% endfor %}
 
 
