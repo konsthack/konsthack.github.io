@@ -8,10 +8,13 @@ layout: default
 <div class="page_title hidden"> {{ page.title }} </div>
 <hr>
 
-
 <div class="jumbotron">
-  <p>{{ page.summery }} </p>
+  <div class="row">
+    <div class="col-md-8">{{ page.summery }} </div>
+    <div class="col-md-4"><img scr="{{ page.image }}" /></div>
+  </div>
 </div>
+
 <div class="hidden jsoncontent">
   <p>{{ page.json }} </p>
 </div>
