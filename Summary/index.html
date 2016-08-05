@@ -1,11 +1,56 @@
 ---
-layout: post
-title: "Summery"
-date: "2016-02-30"
-procent: "100"
-when: 100
-howlong: 200
-iframe_id: 1BsIS1uJrVKcI928ZXcx6ERWGEtxsd7NmaFs59D8Ay3Q
-height: 10000
+layout: default
 ---
+
+	{% for post in site.posts %}
+
+	{% if post.howlong == 5000 %}
+		   
+		<div style="clear:both">
+        	<div class="listcontainer">
+            	<hr>
+					<h3> Referance </h3>
+				<hr>
+            </div>
+		</div>
+
+	    	<div class="listcontainer">
+       	{% elsif post.howlong == 4000 %}
+		      
+		<span>
+    		<a href="{{ post.link }}" alt="{{ post.title }}" target="_blank">
+            	{{ post.title }} 
+            </a> | 
+         </span>
+
+	{% else %}
+		<div class="homework">
+        	<div class="front-page_images">
+            	<a href="{{ post.url }}" alt="{{ post.title }}">
+                	<img src="{{ post.img }}"  alt="{{ post.title }}" />
+  					<div class="process pull-right"> Last Updated: {{ post.date | date_to_string }} </div>
+                </a>
+            </div>
+			<div class="homeworktext">	
+				<h4> 
+					<span class="glyphicon glyphicon-folder-close"></span> 
+					<a href="{{ post.url }}" alt="{{ post.title }}"> {{ post.title }} </a></h4>		        
+					<div class="progress progress-striped active">   
+						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="98" style="width:{{post.procent}}%">{{post.procent}} %</div>
+		
+		    		</div> 
+					<h6> 
+					Last Updated: {{ post.date | date_to_string }}  
+					</h6>
+			</div>
+	</div>
+
+	{% endif %}
+
+
+
+
+{% endfor %}
+	</div>
+
 
