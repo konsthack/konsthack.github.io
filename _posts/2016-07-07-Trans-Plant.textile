@@ -5,7 +5,6 @@ date: "2016-07-07"
 procent: "30"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/plancontrol.jpg"
 summery: ...  The workshop focused on the transformative nature of piracy. A connection between global feminism and the creative non-white agency started to emerge as an alternative to the emphasis on the predominantly, white, middle class, male agency.
----
 json: {"tests":[
         {   "testName":"Puredata Arduino Potentiomenters", 
             "Date":"2016-04-20",
