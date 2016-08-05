@@ -5,56 +5,32 @@ date: "2016-05-23"
 procent: "20"
 img: https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg
 summery: ... Let's explore Satellite CCRMA and This Raspberry Pi - Includes Pure Data, Arduino, Python and Supercollider. Satellite CCRMA is a platform for building embedded musical instruments and embedded art installations by Edgar Berdahl and Wendy Ju. 
+json: {"tests":[
+        {   "testName":"Puredata Arduino Potentiomenters", 
+            "Date":"2016-04-20",
+            "Status":"In progress",
+            "Progression":"80",
+            "Assert":"Can we create a Puredata Arduino connection and control sound with Potentiometers",
+            "Images": [],  
+            "Links": []
+        },
+        {   "testName":"Python Puredata connection", 
+            "Date":"2016-05-30",
+            "Status":"Success",  
+            "Progression":"100",
+            "Assert":"Can we connect Python and Puredata",
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/k8200.jpg"], 
+            "Links": ["https://github.com/palletorsson/pd_python"]
+        },
+        {   "testName":" Interactive Sound Pi Install", 
+            "Date":"2016-05-20",
+            "Status":"Success",
+            "Progression":"100",
+            "Comments": ["Log In --> User: pi  Password: raspberry", "Start | $ sudo startx"]
+            "Assert":"Can we install Interactive Sound Pi from image",
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg"],  
+            "Links": ["https://ccrma.stanford.edu/~eberdahl/Satellite/", ]
+        }
+    ]}
 ---
-
 <div class="test-target"></div>
-
-<h3> About </h3>
-<hr>
-<table>
-<tr>
-<td style="vertical-align: top;">
-<ul>
- <li> Satellite CCRMA and This Raspberry Pi - Includes Pure Data, Arduino, Python and Supercollider. Satellite CCRMA is a platform for building embedded musical instruments and embedded art installations by Edgar Berdahl and Wendy Ju.</li>
- <li> <a href="https://ccrma.stanford.edu/~eberdahl/Satellite/">The Satellite CCRMA Project</a> </li>
- <hr>
- <li> Raspberry Pi IDs : PD0, PO1, PD2 </li>
- <hr>
- <li> Log In --> User: pi  Password: raspberry </li>
- <li> Start | $ sudo startx </li>
-</ul>
-</td>
-<td width="20px">
-</td>
-<td>
-<img src="https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg" alt="raspberry sound img" width="300px" />
-</td>
-</tr>
-</table>
-<hr>
-<h3> Next Tests </h3>
-<hr>
-<ul>
- <li>PD0_2</li>
- <ul>
-   <li><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Test sound Raspberry with Potentiometers</li>
-   <li> Ref | <a href="http://workshopweekend.net/arduino/labs/exploring-color">Potentiometer setup Start explore</a> 
-  </ul>
- </ul>
-<hr>
-<h3> Done </h3>
-<hr>
-<ul>
-<li> PD0_1 </li>
- <ul> 
-  <li> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Connect Python and Puredata </li>
-  <li> <a href="https://github.com/palletorsson/pd_python">Python Puredata Code exemple</a> </li>
- </ul>
-
-<li> PD0_0 </li>
- <ul> 
-  <li> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Install Sound Pi </li> 
-  <li> <a href="https://ccrma.stanford.edu/~eberdahl/Satellite/">see Satellite CCRMA for raspbian image</a> </li>
- </ul>
-</ul>
-<hr>
