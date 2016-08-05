@@ -24,12 +24,32 @@ $( document ).ready(function() {
                         "<span class='sr-only'>" + obj.tests[i].Progression +"% Complete (success)</span>"+
                     "</div>"+
                 "</div>";
+                if (obj.tests[i].Comments.length > 0) {
+                    html_str = html_str + "<hr><div>";
+                    $.each(obj.tests[i].Links, function(i, item) {
+                        html_str = html_str + item " | ";
+                    });
+                    html_str = html_str + "</div><hr>";
+                } else {
+                    console.log("no comments");
+                }
+                
+                if (obj.tests[i].Links.length > 0) {
+                    html_str = html_str + "<hr><div>";
+                    $.each(obj.tests[i].Links, function(i, item) {
+                        html_str = html_str + "<a href="+item+">item</a>";
+                    });
+                    html_str = html_str + "</div><hr>";
+                } else {
+                    console.log("no links");
+                }
+                
                 if (obj.tests[i].Images.length > 0) {
                     html_str = html_str + "<hr><div>";
                     $.each(obj.tests[i].Images, function(i, item) {
                         html_str = html_str + "<img src="+item+" width='30%' >";
                     });
-                    html_str = html_str + "</div>";
+                    html_str = html_str + "</div><hr>";
 
                 } else {
                     console.log("no images");
