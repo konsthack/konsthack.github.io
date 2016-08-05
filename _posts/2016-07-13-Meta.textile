@@ -2,7 +2,7 @@
 layout: post
 title: "Meta"
 date: "2016-07-13"
-procent: "1"
+procent: "17"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/meta.jpg"
 summery: ... A workshop on the principle of ad-hoc network and democracy and the possibilities and difficulties, they pose.
 ---
