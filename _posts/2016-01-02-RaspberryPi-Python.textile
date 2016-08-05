@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Raspberry_pi_Python"
+date: "2016-01-02"
+procent: "100"
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/secure_camera.jpg"
+summery: ... Python is a preferable programing language for Raspberry pi
+---
+
