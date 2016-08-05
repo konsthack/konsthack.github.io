@@ -21,7 +21,7 @@ json: {"tests":[
             "Progression":"100",
             "Comments": ["The prints are not good enough"],
             "Assert":"From the instruction we can wire the electrics in three weeks",
-            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/k8200.jpg"], 
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/3d_assable_2.jpg"], 
             "Links": []
         },
         {   "testName":"Construction and Assemblage", 
@@ -30,7 +30,7 @@ json: {"tests":[
             "Progression":"100",
             "Comments": [],
             "Assert":"We can assemble the mechanical parts of 3D Printer Together in a two weeks",
-            "Images": [],  
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/3d_assamble1.jpg"],  
             "Links": ["http://www.k8200.eu/locale/"]
         }
     ]}
