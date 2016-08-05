@@ -11,7 +11,7 @@ json: {"tests":[
             "Status":"In progress",
             "Progression":"80",
             "Comments": [],
-            "Assert":"Puredata and Arduino connection is created and control Potentiometers control sound",
+            "Assert":"Puredata and Arduino connection is created and Potentiometers controls sin waves sounds",
             "Images": [],  
             "Links": []
         },
@@ -28,7 +28,7 @@ json: {"tests":[
             "Date":"2016-05-20",
             "Status":"Success",
             "Progression":"100",
-            "Comments": ["Log In --> User: pi  Password: raspberry", "Start | $ sudo startx"],
+            "Comments": ["Log in with", "User: pi  Password: raspberry", "Start in Sudo from programs to work", "Command: $ sudo startx "],
             "Assert":"Sound Pi is installed from Sound Pi image",
             "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg"],  
             "Links": ["https://ccrma.stanford.edu/~eberdahl/Satellite/", ]
