@@ -4,9 +4,7 @@ title: "Text File Archive"
 date: "2016-08-01"
 iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
 procent: "10"
-when: 1200
-howlong: 200
-height: 30000
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/reading.jpg"
 summery: ... Questions focused on a possible lack and the inability of knowledge institutions to risk investing in the unknown and unpredictable.
 ---
 
