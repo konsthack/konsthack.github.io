@@ -26,7 +26,7 @@ json: {"tests":[
             "Date":"2016-05-20",
             "Status":"Success",
             "Progression":"100",
-            "Comments": ["Log In --> User: pi  Password: raspberry", "Start | $ sudo startx"]
+            "Comments": ["Log In --> User: pi  Password: raspberry", "Start | $ sudo startx"],
             "Assert":"Can we install Interactive Sound Pi from image",
             "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg"],  
             "Links": ["https://ccrma.stanford.edu/~eberdahl/Satellite/", ]
