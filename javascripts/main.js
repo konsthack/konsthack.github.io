@@ -27,7 +27,7 @@ $( document ).ready(function() {
                 if (obj.tests[i].Comments.length > 0) {
                     html_str = html_str + "<hr><div><ul>";
                     $.each(obj.tests[i].Comments, function(i, item) {
-                        html_str = html_str + "<li>" + item + "<li>";
+                        html_str = html_str + "<li>" + item + "</li>";
                     });
                     html_str = html_str + "</ul></div><hr>";
                 } else {
