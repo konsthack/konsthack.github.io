@@ -3,6 +3,7 @@ layout: post
 title: "Sync_Lan"
 date: "2016-06-06"
 procent: "50"
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/sync_lan.jpg"
 summery: ... Lets make a networking solutions for media control with Raspberry Pi.  
 json: {"tests":[
         {   "testName":"Video Playback Clients", 
