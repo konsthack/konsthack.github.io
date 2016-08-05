@@ -314,8 +314,9 @@ width: 800px;
 }
 .bs-callout-success {
   background-color: #dff0d8;
-  border-color: #d0e3f8;
+  border-color: #5cb85c;
 }
+
 @media (min-width: 1200px) {
 
 	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
