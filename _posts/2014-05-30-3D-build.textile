@@ -29,7 +29,7 @@ json: {"tests":[
             "Comments": [],
             "Assert":"We can assemble the mechanical parts of 3D Printer Together in a two weeks",
             "Images": [],  
-            "Links": []
+            "Links": ["http://www.k8200.eu/locale/"]
         }
     ]}
 ---
