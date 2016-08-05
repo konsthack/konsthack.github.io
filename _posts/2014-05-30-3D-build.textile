@@ -8,7 +8,7 @@ json: {"tests":[
             "Date":"2016-04-20",
             "Status":"In progress",
             "Progression":"60",
-            "Comments": [],
+            "Comments": ["Use hair spray for better mounting", "New glass order and installed", "Next: " "Fixa camera that is not working", "make sure we can edit the G-code on the Pi before printing"],
             "Assert":"Tweak the Printer to make better prints",
             "Images": [],  
             "Links": []
