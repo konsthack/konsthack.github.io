@@ -5,7 +5,7 @@ layout: default
 {% for post in site.posts %}
 
 	{% for test in post.json.tests %}	
-	<li>	{{ test[0]testName }} </li>
+	<li>	{{ test }} </li>
 	{% endfor %}
 {% endfor %}
 </ul>
