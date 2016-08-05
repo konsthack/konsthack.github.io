@@ -14,7 +14,7 @@ $( document ).ready(function() {
             "</h4><hr>"+
             "<h5>Assertion: " + obj.tests[i].Assert + "</h5><hr>"+
                 "<div class='alert alert-danger'>" +
-                    "<span> Progress: " + obj.tests[i].Progression + "%</span> | " +
+                    "<span class="progress"> Progress: " + obj.tests[i].Progression + "%</span> | " +
                     "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span> | " +
                     "<span> "+ obj.tests[i].Status + " </span> | " +
                     "<small> Last update: " + obj.tests[i].Date +"</small>"+ 
