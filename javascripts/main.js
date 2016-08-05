@@ -25,27 +25,27 @@ $( document ).ready(function() {
                     "</div>"+
                 "</div>";
                 if (obj.tests[i].Comments.length > 0) {
-                    html_str = html_str + "<hr><div>";
+                    html_str = html_str + "<hr><div><ul>";
                     $.each(obj.tests[i].Comments, function(i, item) {
-                        html_str = html_str + item + " | ";
+                        html_str = html_str + "<li>" + item + "<li>";
                     });
-                    html_str = html_str + "</div><hr>";
+                    html_str = html_str + "</ul></div><hr>";
                 } else {
                     console.log("no comments");
                 }
                 
                 if (obj.tests[i].Links.length > 0) {
-                    html_str = html_str + "<hr><div>";
+                    html_str = html_str + "<div>Link(s): <ul>";
                     $.each(obj.tests[i].Links, function(i, item) {
-                        html_str = html_str + "<a href="+item+">"+item+"</a>";
+                        html_str = html_str + "<li><a href="+item+">"+item+"</a></li>";
                     });
-                    html_str = html_str + "</div><hr>";
+                    html_str = html_str + "</ul></div><hr>";
                 } else {
                     console.log("no links");
                 }
                 
                 if (obj.tests[i].Images.length > 0) {
-                    html_str = html_str + "<hr><div>";
+                    html_str = html_str + "<div>";
                     $.each(obj.tests[i].Images, function(i, item) {
                         html_str = html_str + "<img src="+item+" width='30%' >";
                     });
