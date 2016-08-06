@@ -4,6 +4,17 @@ title: "Raspberry_pi_Python"
 date: "2016-01-02"
 procent: "100"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/secure_camera.jpg"
-summery: ... Python is a preferable programing language for Raspberry pi
+summery: ... Lets make a networking solutions for media control with Raspberry Pi.  
+json: {"tests":[
+        {   "testName":"Raspberry pi GPIO sensor and camera control", 
+            "Date":"2016-01-20",
+            "Status":"Success",
+            "Progression":"100",
+            "Comments": [],
+            "Assert":"Sensor connected to GPIO opin triggers the Camera to take an image and plays a sound file",
+            "Images": [],  
+            "Links": []
+        }
+    ]}
 ---
-
+<div class="test-target"></div>
