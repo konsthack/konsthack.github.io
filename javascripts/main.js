@@ -61,6 +61,9 @@ $( document ).ready(function() {
                     console.log("no links");
                 }
                 
+
+            html_str = html_str + "</div></div><div class='col-sm-2'>";
+            
                 if (obj.tests[i].Images.length > 0) {
                     html_str = html_str + "<div>";
                     $.each(obj.tests[i].Images, function(i, item) {
@@ -71,8 +74,8 @@ $( document ).ready(function() {
                 } else {
                     console.log("no images");
                 }
-            html_str = html_str + "</div></div><div class='col-sm-2'>" +
-            "</div></row>";
+                
+            html_str = html_str + "</div></row>";
             l = l - 1;
         });
         $(".test-target").html(html_str); 
