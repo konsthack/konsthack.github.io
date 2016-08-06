@@ -11,7 +11,7 @@ json: {"tests":[
             "Status":"Success",
             "Progression":"100",
             "Comments": [],
-            "Assert":"Sensor connected to GPIO opin triggers the Camera to take an image and plays a sound file",
+            "Assert":"A motion sensor connected to the GPIO pins - triggers the camera that takes an image and a sound plays",
             "Images": [],  
             "Links": []
         }
