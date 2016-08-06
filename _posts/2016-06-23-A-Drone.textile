@@ -18,7 +18,7 @@ json: {"tests":[
         {   "testName":"Try flying", 
             "Date":"2016-04-20",
             "Status":"Fail",
-            "Progression":"90",
+            "Progression":"0",
             "Comments": ["A motor broke during test first test flight"],
             "Assert":"Drone Flies",
             "Images": [],  
