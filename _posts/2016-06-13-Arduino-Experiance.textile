@@ -13,7 +13,7 @@ json: {"tests":[
             "Comments": [],
             "Assert": "Potentiometer to control LED lights buzzer and can be monitor i the serial output",
             "Images": [],  
-            "Links": ["https://github.com/konsthack/arduino_exampels"]
+            "Links": ["https://github.com/konsthack/arduino_exampels/blob/master/arduino_opt_led_buzz_serial_from_pots"]
         }
     ]}
 ---
