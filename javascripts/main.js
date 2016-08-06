@@ -12,9 +12,10 @@ $( document ).ready(function() {
             
                 if (obj.tests[i].Status == "Success") {
                     html_str = html_str +"success'>"; 
-                    console.log("suss"); 
-                } else {
+                } else if (obj.tests[i].Status == "Fail") {
                     html_str = html_str +"danger'>"; 
+                } else {
+                    html_str = html_str +"warning'>"; 
                 }    
             
             html_str = html_str + 
