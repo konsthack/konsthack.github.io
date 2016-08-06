@@ -67,9 +67,9 @@ $( document ).ready(function() {
                 if (obj.tests[i].Images.length > 0) {
                     html_str = html_str + "<div>";
                     $.each(obj.tests[i].Images, function(i, item) {
-                        html_str = html_str + "<img src="+item+" width='100%' >";
+                        html_str = html_str + "<hr><img src="+item+" width='100%' >";
                     });
-                    html_str = html_str + "</div><hr>";
+                    html_str = html_str + "</div>";
 
                 } else {
                     console.log("no images");
