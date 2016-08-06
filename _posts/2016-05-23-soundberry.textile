@@ -12,7 +12,7 @@ json: {"tests":[
             "Progression":"80",
             "Comments": [],
             "Assert":"Puredata and Arduino connection is created and Potentiometers controls sin waves sounds",
-            "Images": [],  
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/arduino.jpg"],  
             "Links": ["http://wendyju.com/publications/satellite_ccrma.pdf"]
         },
         {   "testName":"Python Puredata connection", 
