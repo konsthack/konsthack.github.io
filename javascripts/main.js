@@ -8,7 +8,7 @@ $( document ).ready(function() {
         var title = $(".page_title").text().trim() || "love";
         $.each(obj.tests, function(i, item) {
             html_str =  html_str + 
-            "<row><div class='col-sm-9'><div class='bs-callout bs-callout-"; 
+            "<row><div class='col-sm-8'><div class='bs-callout bs-callout-"; 
             
                 if (obj.tests[i].Status == "Success") {
                     html_str = html_str +"success'>"; 
@@ -71,7 +71,7 @@ $( document ).ready(function() {
                 } else {
                     console.log("no images");
                 }
-            html_str = html_str + "</div></div><div class='col-sm-3'>" +
+            html_str = html_str + "</div></div><div class='col-sm-2'>" +
             "</div></row>";
             l = l - 1;
         });
