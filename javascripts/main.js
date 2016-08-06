@@ -22,7 +22,7 @@ $( document ).ready(function() {
             "<h4>T_" + l + ": "+ obj.tests[i].testName + 
              "<br> | <small> Last update: " + obj.tests[i].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
             "</h4><hr>"+
-            "<p>Assertion: " + obj.tests[i].Assert + "</p><hr>"+
+            "<p>Expect: " + obj.tests[i].Assert + "</p><hr>"+
             "<div class='alert alert-";
                 
                 if (obj.tests[i].Status == "Success") {
