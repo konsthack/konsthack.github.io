@@ -62,7 +62,7 @@ $( document ).ready(function() {
                 }
                 
 
-            html_str = html_str + "</div></div><div class='col-sm-3'>";
+            html_str = html_str + "</div></div><div class='col-sm-4'>";
             
                 if (obj.tests[i].Images.length > 0) {
                     html_str = html_str + "<div>";
