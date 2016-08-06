@@ -19,9 +19,9 @@ $( document ).ready(function() {
             
             html_str = html_str + 
             "<h4>T_" + l + ": "+ obj.tests[i].testName + 
-             " | <small> Last update: " + obj.tests[i].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
+             "<br> | <small> Last update: " + obj.tests[i].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
             "</h4><hr>"+
-            "<h5>Assertion: " + obj.tests[i].Assert + "</h5><hr>"+
+            "<p>Assertion: " + obj.tests[i].Assert + "</p><hr>"+
             "<div class='alert alert-";
                 
                 if (obj.tests[i].Status == "Success") {
