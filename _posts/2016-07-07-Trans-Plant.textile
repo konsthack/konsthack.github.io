@@ -4,38 +4,19 @@ title: "Trans-Plant"
 date: "2016-07-07"
 procent: "30"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/plancontrol.jpg"
-summery: ...  The workshop focused on the transformative nature of piracy. A connection between global feminism and the creative non-white agency started to emerge as an alternative to the emphasis on the predominantly, white, middle class, male agency.
+summery: ...  Raspberry pi gardening project
 json: {"tests":[
-        {   "testName":"Puredata Arduino Potentiomenters", 
-            "Date":"2016-04-20",
-            "Status":"In progress",
-            "Progression":"80",
-            "Comments": [],
-            "Assert":"Puredata and Arduino connection is created and Potentiometers controls sin waves sounds",
-            "Images": [],  
-            "Links": ["http://wendyju.com/publications/satellite_ccrma.pdf"]
-        },
-        {   "testName":"Python Puredata connection", 
-            "Date":"2016-05-30",
-            "Status":"Success",  
-            "Progression":"100",
-            "Comments": ["see link for code example"],
-            "Assert":"Python and Puredata connects",
-            "Images": [], 
-            "Links": ["https://github.com/palletorsson/pd_python"]
-        },
-        {   "testName":" Interactive Sound Pi Install", 
-            "Date":"2016-05-20",
+        {   "testName":"Relay water control", 
+            "Date":"2016-01-20",
             "Status":"Success",
             "Progression":"100",
-            "Comments": ["Log in with", "User: pi  Password: raspberry", "Start in Sudo from programs to work", "Command: $ sudo startx "],
-            "Assert":"Sound Pi is installed from Sound Pi image",
-            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg"],  
-            "Links": ["https://ccrma.stanford.edu/~eberdahl/Satellite/", ]
+            "Comments": ["Be cautious with electricity "],
+            "Assert":"Water is pumping when moist sensor is dry",
+            "Images": [],  
+            "Links": ["https://farmbot.io/"]
         }
     ]}
 ---
 <div class="test-target"></div>
 
-https://farmbot.io/
 
