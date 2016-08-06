@@ -6,32 +6,50 @@ procent: "50"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/quad.jpg"
 summery: ... Exploring DIY drone assemblage
 json: {"tests":[
-        {   "testName":"Puredata Arduino Potentiomenters", 
+        {   "testName":"Change motor", 
             "Date":"2016-04-20",
             "Status":"In progress",
-            "Progression":"80",
-            "Comments": [],
-            "Assert":"Puredata and Arduino connection is created and Potentiometers controls sin waves sounds",
+            "Progression":"90",
+            "Comments": [,
+            "Assert":"Drone Flies",
             "Images": [],  
-            "Links": ["http://wendyju.com/publications/satellite_ccrma.pdf"]
+            "Links": []
         },
-        {   "testName":"Python Puredata connection", 
-            "Date":"2016-05-30",
+        {   "testName":"Try flying", 
+            "Date":"2016-04-20",
+            "Status":"Fail",
+            "Progression":"90",
+            "Comments": ["A motor broke during test first test flight"],
+            "Assert":"Drone Flies",
+            "Images": [],  
+            "Links": []
+        },
+        {   "testName":"Wire the control card", 
+            "Date":"2016-04-01",
             "Status":"Success",  
             "Progression":"100",
-            "Comments": ["see link for code example"],
-            "Assert":"Python and Puredata connects",
+            "Comments": [],
+            "Assert":"Motor behave drone-like",
             "Images": [], 
-            "Links": ["https://github.com/palletorsson/pd_python"]
+            "Links": ["https://www.youtube.com/watch?v=eSCvCAC7Q-c"]
         },
-        {   "testName":" Interactive Sound Pi Install", 
-            "Date":"2016-05-20",
+        {   "testName":"Install motors", 
+            "Date":"2016-03-30",
+            "Status":"Success",  
+            "Progression":"100",
+            "Comments": [],
+            "Assert":"Motor spins",
+            "Images": [], 
+            "Links": ["https://www.youtube.com/watch?v=eSCvCAC7Q-c"]
+        },
+        {   "testName":"Build Frame", 
+            "Date":"2016-03-20",
             "Status":"Success",
             "Progression":"100",
-            "Comments": ["Log in with", "User: pi  Password: raspberry", "Start in Sudo from programs to work", "Command: $ sudo startx "],
-            "Assert":"Sound Pi is installed from Sound Pi image",
-            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg"],  
-            "Links": ["https://ccrma.stanford.edu/~eberdahl/Satellite/", ]
+            "Comments": [],
+            "Assert":"Frame is assembled",
+            "Images": [],  
+            "Links": []
         }
     ]}
 ---
