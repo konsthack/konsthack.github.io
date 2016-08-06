@@ -62,12 +62,12 @@ $( document ).ready(function() {
                 }
                 
 
-            html_str = html_str + "</div></div><div class='col-sm-2'>";
+            html_str = html_str + "</div></div><div class='col-sm-3'>";
             
                 if (obj.tests[i].Images.length > 0) {
                     html_str = html_str + "<div>";
                     $.each(obj.tests[i].Images, function(i, item) {
-                        html_str = html_str + "<img src="+item+" width='30%' >";
+                        html_str = html_str + "<img src="+item+" width='100%' >";
                     });
                     html_str = html_str + "</div><hr>";
 
