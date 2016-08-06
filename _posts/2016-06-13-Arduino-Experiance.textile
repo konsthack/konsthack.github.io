@@ -2,11 +2,17 @@
 layout: post
 title: "Arduino Explorations"
 date: "2016-06-13"
-iframe_id: 1ulw2SerFEA21IcV8uoNKjzfzGlSMJq8TeUk0TV2UlAM
 procent: "30"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/arduino.jpg"
-summery: "From basic to more advanced arduino experiments"
+{   "testName":"Arduino Exampels POTs, BUZZ, LEDs and Serial output", 
+            "Date":"2016-03-20",
+            "Status":"Success",
+            "Progression":"100",
+            "Comments": [],
+            "Assert":"Potentiometer to control LED lights buzzer and can be monitor i the serial output",
+            "Images": [],  
+            "Links": []
+        }
+    ]}
 ---
-<h3> Arduino Experiance </h3>
-<p> Into Ardunio </p>
-<p> https://github.com/konsthack/arduino_exampels </p>
+<div class="test-target"></div>
