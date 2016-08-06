@@ -1,0 +1,21 @@
+---
+layout: post
+title: "New_Themes"
+date: "2016-07-13"
+procent: "17"
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/meta.jpg"
+summery: ... There a many topics and themes that could be relavant for the hackerspace., that are jet not active. Keep track of them here.
+json: {"tests":[
+        {   "testName":"New Themes", 
+            "Date":"2016-06-29",
+            "Status":"In Progress",
+            "Progression":"50",
+            "Comments": ["Crypto", "Machine Learning", "Video Mapping"],
+            "Assert":"List themes that could be part of the hackerspace body of work",
+            "Images": [],  
+            "Links": []
+        }
+    ]}
+---
+<div class="test-target"></div>
+
