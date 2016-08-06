@@ -30,7 +30,7 @@ json: {"tests":[
             "Progression":"100",
             "Comments": ["Log in with", "User: pi  Password: raspberry", "Start in Sudo from programs to work", "Command: $ sudo startx ", "See link for installation"],
             "Assert":"Sound Pi is installed from Sound Pi image",
-            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/raspsound.jpg"],  
+            "Images": [],  
             "Links": ["https://ccrma.stanford.edu/~eberdahl/Satellite/", ]
         }
     ]}
