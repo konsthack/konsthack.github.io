@@ -5,5 +5,17 @@ date: "2016-06-06"
 procent: "0"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/vis.jpg"
 summery: ... Javascript can visualize data,  let's use D3.js and other javascript libraries to explore visualization. 
+json: {"tests":[
+        {   "testName":"This project is about to start", 
+            "Date":"2016-01-20",
+            "Status":"In Progress",
+            "Progression":"0",
+            "Comments": [],
+            "Assert":"what do you expect?",
+            "Images": [],  
+            "Links": []
+        }
+    ]}
 ---
+<div class="test-target"></div>
 
