@@ -5,8 +5,8 @@ $( document ).ready(function() {
         console.dir(list_active); 
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
-                var parsed = list_active[i].innerText.replace(/=>/g, ':'), 
-                obj = jQuery.parseJSON( parsed ),
+                var parsed = list_active[i].innerText.replace(/=>/g, ':'); 
+                obj = jQuery.parseJSON( parsed );
                 console.log(obj);
             }); 
         }
