@@ -1,23 +1,23 @@
 
 $( document ).ready(function() {
     // show list of resent tests
-    var list_active = $(".list").html(),    
-        li = list_active.length || 0;
-        if (li != 0) {  
+    var list_active = $(".list").html() || 0,    
+        
+        if (list_active != 0) {  
             $.each(list_active, function(i, item) {
                 console.log(item, i)
             }); 
         }
         
     // show a project detail 
-    var some_json = $(".jsoncontent").text(), 
+    var some_json = $(".jsoncontent").text() || 0, 
         parsed = some_json.replace(/=>/g, ':'), 
         obj = jQuery.parseJSON( parsed ),
         html_str = "";
        
-        var l = obj.tests.length || 0;
         // if exist
-        if (l != 0) {
+        if (some_json != 0) {
+            var l = obj.tests.length;
             var title = $(".page_title").text().trim() || "love";
             $.each(obj.tests, function(i, item) {
                 html_str =  html_str + 
