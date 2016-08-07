@@ -4,7 +4,7 @@ $( document ).ready(function() {
     var list_active = $(".last li").text || 0;   
         console.log(list_active); 
         if (list_active != 0) {  
-            $each(list_active , function(i, item) {
+            $.each(list_active , function(i, item) {
                 console.log(item, i)
             }); 
         }
