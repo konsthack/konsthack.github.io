@@ -2,7 +2,7 @@
 $( document ).ready(function() {
     // show list of resent tests
     var list_active = $(".last")|| 0;   
-        console.log(list_active); 
+        console.dir(list_active); 
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
                console.log(list_active[i])
