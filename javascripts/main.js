@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
     // show list of resent tests
-    var list_active = $(".last").text() || 0;   
+    var list_active = $(".last").html() || 0;   
         console.log(list_active); 
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
