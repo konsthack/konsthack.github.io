@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
     // show list of resent tests
-    var list_active = $(".list").html() || 0,    
+    var list_active = $(".list").html() || 0;   
         
         if (list_active != 0) {  
             $.each(list_active, function(i, item) {
@@ -10,8 +10,8 @@ $( document ).ready(function() {
         }
         
     // show a project detail 
-    var some_json = $(".jsoncontent").text() || 0, 
-        parsed = some_json.replace(/=>/g, ':'), 
+    var some_json = $(".jsoncontent").text() || 0;
+    var parsed = some_json.replace(/=>/g, ':'), 
         obj = jQuery.parseJSON( parsed ),
         html_str = "";
        
