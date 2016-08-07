@@ -3,12 +3,45 @@ $( document ).ready(function() {
     // show list of resent tests
     var list_active = $(".last li")|| 0;   
         console.dir(list_active); 
+        html_str = "";
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
                 var parsed = list_active[i].innerText.replace(/=>/g, ':'); 
                 obj = jQuery.parseJSON( parsed );
                 console.log(obj.tests[0]);
+                 html_str =  html_str + 
+                "<row><div class='col-sm-8'><div class='bs-callout bs-callout-"; 
+                
+                    if (obj.tests[0].Status == "Success") {
+                        html_str = html_str +"success'>"; 
+                    } else if (obj.tests[0].Status == "Fail") {
+                        html_str = html_str +"danger'>"; 
+                    } else {
+                        html_str = html_str +"warning'>"; 
+                    }    
+                
+                html_str = html_str + 
+                "<h4>T_" + l + ": "+ obj.tests[0].testName + 
+                 "<br> | <small> Last update: " + obj.tests[i].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
+                "</h4><hr>"+
+                "<p>Expect: " + obj.tests[0].Assert + "</p><hr>"+
+                "<div class='alert alert-";
+                    
+                    if (obj.tests[0].Status == "Success") {
+                        html_str = html_str +"info'>"; }
+                    else {
+                        html_str = html_str +"danger'>"; 
+                    }                
+                    
+                    html_str = html_str + 
+                        "<span > Progress: " + obj.tests[0].Progression + "%</span> | " +
+                        "<span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span> | " +
+                        "<span> "+ obj.tests[0].Status + " </span> | " +
+                        "<small> Last update: " + obj.tests[0].Date +"</small>"+ 
+                        "</div></div></div></row>"
             }); 
+            $(".test-target").html(html_str); 
+      
         }
         
     // show a project detail 
