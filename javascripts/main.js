@@ -3,7 +3,8 @@ $( document ).ready(function() {
     // show list of resent tests
     var list_active = $(".last li")|| 0;   
     var list_title = $(".titles li") || 0;  
-    console.dir( list_title );
+   var list_url = $(".urls li") || 0; 
+
         html_str = "";
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
@@ -22,8 +23,8 @@ $( document ).ready(function() {
                     }    
                 
                 html_str = html_str + 
-                "<h4>"+list_title[i].innerText+" - T_" + obj.tests.length + ": "+ obj.tests[0].testName + 
-                 "<br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+  list_title[i].innerText + "_Test_" + obj.tests.length + " | </small>" + 
+                "<h4><a href='"+list_url[i].innerText+"'>+list_title[i].innerText+" - T_" + obj.tests.length + ": "+ obj.tests[0].testName + 
+                 "</a><br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+  list_title[i].innerText + "_Test_" + obj.tests.length + " | </small>" + 
                 "</h4><hr>"+
                 "<p>Expect: " + obj.tests[0].Assert + "</p><hr>"+
                 "<div class='alert alert-";
