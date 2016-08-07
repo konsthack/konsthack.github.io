@@ -7,7 +7,7 @@ $( document ).ready(function() {
             $.each(list_active , function(i, item) {
                 var parsed = list_active[i].innerText.replace(/=>/g, ':'); 
                 obj = jQuery.parseJSON( parsed );
-                console.log(obj.testName);
+                console.log(obj.tests[0]);
             }); 
         }
         
