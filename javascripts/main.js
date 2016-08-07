@@ -2,7 +2,8 @@
 $( document ).ready(function() {
     // show list of resent tests
     var list_active = $(".last li")|| 0;   
-    var list_title = $(".titles li")|| 0;   
+    var list_title = $(".titles li") || 0;  
+    console.dir( list_title );
         html_str = "";
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
