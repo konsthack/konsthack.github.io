@@ -22,7 +22,7 @@ $( document ).ready(function() {
                     }    
                 
                 html_str = html_str + 
-                "<h4>list_title[i].innerText - T_" + obj.tests.length + ": "+ obj.tests[0].testName + 
+                "<h4>"+list_title[i].innerText+" - T_" + obj.tests.length + ": "+ obj.tests[0].testName + 
                  "<br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+  list_title[i].innerText + "_Test_" + obj.tests.length + " | </small>" + 
                 "</h4><hr>"+
                 "<p>Expect: " + obj.tests[0].Assert + "</p><hr>"+
