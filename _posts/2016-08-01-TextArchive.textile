@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Text File Archive"
-date: "2016-08-01"
+date: "2016-05-30"
 iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
 procent: "10"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/archive.jpg"
 summery: ... An archive of relavant text relating to hacking and feminism
 json: {"tests":[
         {   "testName":"This project is about to start", 
-            "Date":"2016-06-29",
+            "Date":"2016-05-29",
             "Status":"In Progress",
             "Progression":"1",
             "Comments": [],
