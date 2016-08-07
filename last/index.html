@@ -15,4 +15,11 @@ layout: default
 
 {% endfor %}
 </ul>
+<ul class="urls hidden">
+{% for post in site.posts %}
+	
+	<li> {{ post.url }} </li>
+
+{% endfor %}
+</ul>
 <div class="last-target"></div>
