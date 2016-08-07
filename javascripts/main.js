@@ -11,12 +11,11 @@ $( document ).ready(function() {
         
     // show a project detail 
     var some_json = $(".jsoncontent").text() || 0;
-    var parsed = some_json.replace(/=>/g, ':'), 
-        obj = jQuery.parseJSON( parsed ),
-        html_str = "";
-       
         // if exist
         if (some_json != 0) {
+            var parsed = some_json.replace(/=>/g, ':'), 
+            obj = jQuery.parseJSON( parsed ),
+            html_str = "";
             var l = obj.tests.length;
             var title = $(".page_title").text().trim() || "love";
             $.each(obj.tests, function(i, item) {
