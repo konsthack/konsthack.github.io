@@ -8,5 +8,11 @@ layout: default
 
 {% endfor %}
 </ul>
+<ul class="titles hidden">
+{% for post in site.posts %}
+	
+	<li> {{ post.title }} </li>
 
+{% endfor %}
+</ul>
 <div class="last-target"></div>
