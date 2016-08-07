@@ -5,7 +5,7 @@ $( document ).ready(function() {
         console.dir(list_active); 
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
-               console.log(list_active[i])
+               console.log(list_active[i].innerText)
             }); 
         }
         
