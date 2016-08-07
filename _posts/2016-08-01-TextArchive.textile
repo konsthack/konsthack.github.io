@@ -4,7 +4,7 @@ title: "Text File Archive"
 date: "2016-08-01"
 iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
 procent: "10"
-img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/reading.jpg"
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/archive.jpg"
 summery: ... An archive of relavant text relating to hacking and feminism
 json: {"tests":[
         {   "testName":"This project is about to start", 
