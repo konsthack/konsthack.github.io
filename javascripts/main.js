@@ -21,8 +21,8 @@ $( document ).ready(function() {
                     }    
                 
                 html_str = html_str + 
-                "<h4>T_" + l + ": "+ obj.tests[0].testName + 
-                 "<br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+  list_title[i] + "_Test_" + obj.tests.length + " | </small>" + 
+                "<h4>T_" + obj.tests.length + ": "+ obj.tests[0].testName + 
+                 "<br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+  list_title[i].text() + "_Test_" + obj.tests.length + " | </small>" + 
                 "</h4><hr>"+
                 "<p>Expect: " + obj.tests[0].Assert + "</p><hr>"+
                 "<div class='alert alert-";
