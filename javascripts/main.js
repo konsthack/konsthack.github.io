@@ -22,7 +22,7 @@ $( document ).ready(function() {
                 
                 html_str = html_str + 
                 "<h4>T_" + l + ": "+ obj.tests[0].testName + 
-                 "<br> | <small> Last update: " + obj.tests[i].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
+                 "<br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
                 "</h4><hr>"+
                 "<p>Expect: " + obj.tests[0].Assert + "</p><hr>"+
                 "<div class='alert alert-";
