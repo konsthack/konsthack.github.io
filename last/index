@@ -2,75 +2,47 @@
 layout: default
 ---
 
-	<div class="row workspace">
-		<div class="timeline">
-        	<div class="long">    <div class="line_vertinal label label-success" style="left:2500px;">End point<div class="timeline_line"></div></div>
-                <div class="timeline_horisontal_cel_year">2012</div>
-				<div class="timeline_horisontal_cel_year">2013</div>
-				<div class="timeline_horisontal_cel_year">2014</div>
+<div class="row" > 
+	{% for post in site.posts %}
+
+	{% if post.howlong == 5000 %}
+		   
+		<div style="clear:both">
+        	<div class="listcontainer">
+            	<hr>
+					<h3> Referance </h3>
+				<hr>
             </div>
-                <div style="clear: both;"></div>
-		
-		<div class="long">
-				<div class="timeline_horisontal_cel_name">Jan</div>
-				<div class="timeline_horisontal_cel_num">Feb</div>
-				<div class="timeline_horisontal_cel_name">Mars</div>
-				<div class="timeline_horisontal_cel_num">April</div>
-				<div class="timeline_horisontal_cel_name">March</div>
-				<div class="timeline_horisontal_cel_num">Juni</div>
-				<div class="timeline_horisontal_cel_name">July</div>
-				<div class="timeline_horisontal_cel_name">Aug</div>
-				<div class="timeline_horisontal_cel_num">Sep</div>
-				<div class="timeline_horisontal_cel_name">Oct</div>
-				<div class="timeline_horisontal_cel_num">Nov</div>
-				<div class="timeline_horisontal_cel_name">Dec</div>
-				<div class="timeline_horisontal_cel_name">Jan</div>
-				<div class="timeline_horisontal_cel_num">Feb</div>
-				<div class="timeline_horisontal_cel_name">Mars</div>
-				<div class="timeline_horisontal_cel_num">April</div>
-				<div class="timeline_horisontal_cel_name">March</div>
-				<div class="timeline_horisontal_cel_num">Juni</div>
-				<div class="timeline_horisontal_cel_name">July</div>
-				<div class="timeline_horisontal_cel_name">Aug</div>
-				<div class="timeline_horisontal_cel_num">Sep</div>
-				<div class="timeline_horisontal_cel_name">Oct</div>
-				<div class="timeline_horisontal_cel_num">Nov</div>
-				<div class="timeline_horisontal_cel_name">Dec</div>		
-				<div class="timeline_horisontal_cel_name">Jan</div>
-				<div class="timeline_horisontal_cel_num">Feb</div>
-				<div class="timeline_horisontal_cel_name">Mars</div>
-				<div class="timeline_horisontal_cel_num">April</div>
-				<div class="timeline_horisontal_cel_name">March</div>
-				<div class="timeline_horisontal_cel_num">Juni</div>
-				<div class="timeline_horisontal_cel_name">July</div>
-				<div class="timeline_horisontal_cel_name">Aug</div>
-				<div class="timeline_horisontal_cel_num">Sep</div>
-				<div class="timeline_horisontal_cel_name">Oct</div>
-				<div class="timeline_horisontal_cel_num">Nov</div>
-				<div class="timeline_horisontal_cel_name">Dec</div>	
 		</div>
-		<div class="timeline_content">
-			<div class="timeline_label">
-				{% for post in site.posts %}
 
-					{% if post.howlong == 5000 or post.howlong == 4000 %}
-						   				  
-					{% else %}
-					<div class="label label-success" style="display:block;position:relative;top:20px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:16px;">
-						<span class="label label-primary">{{ post.title }}</span> 
-						<div class="timeline_line"></div>
-					</div>
-					<div class="" style="display:block;position:relative;top:20px;left:{{ post.when }}px;width:{{ post.howlong }}px;height:10px;">
-						<a href="{{ post.url }}""> 
-						<div><img class="timeline_img" src="{{site.data.global.dropbox_folder_path}}/{{ post.title }}_thumb.jpg"  alt="{{ post.title }}" />
-						</div>
-						</a>
-					</div>
-					{% endif %}		
+	
+       	{% elsif post.howlong == 4000 %}
+		      
+		<div class="listcontainer">
+    		<a href="{{ post.url }}" alt="{{ post.title }}">
+            	{{ post.title }} 
+            </a>
+         </div> 
 
-				{% endfor %}		
-		</div>
-	</div>
+	{% else %}
+	<div class="listcontainer">
+		<div class="row">
+		  <div class="col-xs-8 col-sm-8 col-md-8">
+			<h3> 
+				<span class="glyphicon glyphicon-file"></span>
+				<a href="{{ post.url }}"> - {{ post.title }} </a>  
+				<small>({{ post.date | date_to_string }}) </small> </h3>
+				<small>	<span class="visible-md visible-lg"> {{ post.summery }} <span></small>
+				
+			
+		  </div>
+		  <hr>
+
+		</div>	
+     			   
+		</div>	
+	<hr>	
+
+	{% endif %}
+	{% endfor %}
 </div>
-</div>
-
