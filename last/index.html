@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<ul class="last">
+{% for post in site.posts %}
+	{% for test in post.json.tests %}	
+	<li> {{ test }} </li>
+	{% endfor %}
+{% endfor %}
+</ul>
+
+<div class="last-target"></div>
