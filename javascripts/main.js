@@ -40,7 +40,7 @@ $( document ).ready(function() {
                         "<small> Last update: " + obj.tests[0].Date +"</small>"+ 
                         "</div></div></div></row>"
             }); 
-            $(".test-target").html(html_str); 
+            $(".last-target").html(html_str); 
       
         }
         
