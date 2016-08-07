@@ -2,16 +2,16 @@
 $( document ).ready(function() {
     // show list of resent tests
     var list_active = $(".last li")|| 0;   
-        console.dir(list_active); 
+    var list_title = $(".title li")|| 0;   
         html_str = "";
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
                 var parsed = list_active[i].innerText.replace(/=>/g, ':'); 
                 obj = jQuery.parseJSON( parsed );
-                console.log(obj.tests[0]);
+
                  html_str =  html_str + 
                 "<row><div class='col-sm-8'><div class='bs-callout bs-callout-"; 
-                
+
                     if (obj.tests[0].Status == "Success") {
                         html_str = html_str +"success'>"; 
                     } else if (obj.tests[0].Status == "Fail") {
@@ -22,7 +22,7 @@ $( document ).ready(function() {
                 
                 html_str = html_str + 
                 "<h4>T_" + l + ": "+ obj.tests[0].testName + 
-                 "<br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+ title + "_Test_" + l + " | </small>" + 
+                 "<br> | <small> Last update: " + obj.tests[0].Date + " | Test Id:  "+  list_title[i] + "_Test_" + obj.tests.length + " | </small>" + 
                 "</h4><hr>"+
                 "<p>Expect: " + obj.tests[0].Assert + "</p><hr>"+
                 "<div class='alert alert-";
