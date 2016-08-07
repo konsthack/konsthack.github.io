@@ -5,7 +5,7 @@ $( document ).ready(function() {
         console.log(list_active); 
         if (list_active != 0) {  
             $( "li" ).each(function(i, item) {
-                console.log(item, i)
+                console.log(item.text(), i)
             }); 
         }
         
