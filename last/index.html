@@ -3,9 +3,9 @@ layout: default
 ---
 <ul class="last">
 {% for post in site.posts %}
-	{% for test in post.json %}	
-	<li> {{ test }} </li>
-	{% endfor %}
+	
+	<li> {{ post.json }} </li>
+
 {% endfor %}
 </ul>
 
