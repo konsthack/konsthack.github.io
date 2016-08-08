@@ -11,7 +11,7 @@ json: {"tests":[
             "Status":"In progress",
             "Progression":"10",
             "Comments": ["Be cautious with electricity"],
-            "Assert":"A Bacis plant water setup",
+            "Assert":"A Bacis plant - water setup",
             "Images": [],  
             "Links": ["https://farmbot.io/"]
         },
