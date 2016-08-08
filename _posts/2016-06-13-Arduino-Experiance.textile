@@ -6,6 +6,15 @@ procent: "30"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/arduino.jpg"
 summery: "... From basic to more advanced arduino experiments"
 json: {"tests":[
+        { "testName":"Arduino - Der lauf der dinge", 
+            "Date":"2016-03-20",
+            "Status":"Success",
+            "Progression":"10",
+            "Comments": [],
+            "Assert": "Propose 'Arduino - Der lauf der dinge' as Arduino introduction",
+            "Images": ["https://s-media-cache-ak0.pinimg.com/736x/7b/18/09/7b1809b30a14ff980591c58b043cfae7.jpg"],  
+            "Links": ["https://vimeo.com/41630032"]
+        },
         { "testName":"Arduino Exampels POTs, BUZZ, LEDs and Serial output", 
             "Date":"2016-03-20",
             "Status":"Success",
@@ -18,3 +27,5 @@ json: {"tests":[
     ]}
 ---
 <div class="test-target"></div>
+
+
