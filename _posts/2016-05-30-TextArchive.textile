@@ -1,20 +1,29 @@
 ---
 layout: post
-title: "Text File Archive"
+title: "Text_Archive"
 date: "2016-05-30"
 iframe_id: 1r5wEvtKcQFJGlm_lnevM9swaoFY8tw_bJitTmzRQlss
 procent: "10"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/archive.jpg"
 summery: ... An archive of relavant text relating to hacking and feminism
 json: {"tests":[
-        {   "testName":"This project is about to start", 
+        {   "testName":"Print a sellection of text", 
             "Date":"2016-05-29",
             "Status":"In Progress",
-            "Progression":"1",
+            "Progression":"10",
             "Comments": [],
-            "Assert":"what do you expect?",
+            "Assert":"A aellection of text Printed",
             "Images": [],  
             "Links": []
+        },
+        {   "testName":"Initiate Project", 
+            "Date":"2016-05-29",
+            "Status":"In Progress",
+            "Progression":"100",
+            "Comments": [],
+            "Assert":"A List of text and an archive",
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/archive.jpg"],  
+            "Links": ["http://www.sparvnastet.org/pages/studygroup-kursplan.html"]
         }
     ]}
 ---
