@@ -28,7 +28,7 @@ json: {"tests":[
             "Date":"2016-01-20",
             "Status":"Success",
             "Progression":"100",
-            "Comments": ["login as user: pi password: raspberry", "Back terminal commands: ", "$ pwd", "$ ls", "$ ls man", "$ cd ..", "$ cd home", "$ ls -la", "$ clear", "$ nano new.txt",  "$ sudo shutdown -h now", ],
+            "Comments": ["login as user: pi password: raspberry", "Back terminal commands: ", "$ pwd", "$ ls", "$ ls man", "$ cd ..", "$ cd home", "$ ls -la", "$ clear", "$ nano new.txt",  "$ top", "$ ifconfig", "$ ping", "$ wget", "$ ssh man", "$ ps aux | grep python", "$ apt-get install cowsay", "$ cowsay hello world", "$ sudo shutdown -h now", ],
             "Assert":"Raspberry pi operating system installed",
             "Images": [],  
             "Links": []
