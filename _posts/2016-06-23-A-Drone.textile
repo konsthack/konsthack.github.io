@@ -29,7 +29,7 @@ json: {"tests":[
             "Status":"Success",  
             "Progression":"100",
             "Comments": [],
-            "Assert":"Motor behave drone-like",
+            "Assert":"Motors to behave drone-like",
             "Images": [], 
             "Links": ["https://www.youtube.com/watch?v=eSCvCAC7Q-c"]
         },
