@@ -12,7 +12,7 @@ json: {"tests":[
             "Status":"In Progress",
             "Progression":"10",
             "Comments": [],
-            "Assert":"A aellection of text Printed",
+            "Assert":"A Sellection of text Printed",
             "Images": [],  
             "Links": []
         },
