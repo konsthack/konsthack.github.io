@@ -6,11 +6,20 @@ procent: "30"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/plancontrol.jpg"
 summery: ...  Raspberry pi gardening project
 json: {"tests":[
+ {   "testName":"Relay water control", 
+            "Date":"2016-08-08",
+            "Status":"In progress",
+            "Progression":"10",
+            "Comments": ["Be cautious with electricity"],
+            "Assert":"A Bacis plan water setup",
+            "Images": [],  
+            "Links": ["https://farmbot.io/"]
+        },
         {   "testName":"Relay water control", 
             "Date":"2016-01-20",
             "Status":"Success",
             "Progression":"100",
-            "Comments": ["Be cautious with electricity "],
+            "Comments": ["Be cautious with electricity"],
             "Assert":"Water is pumping when moist sensor is dry",
             "Images": [],  
             "Links": ["https://farmbot.io/"]
