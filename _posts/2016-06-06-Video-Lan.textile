@@ -11,7 +11,7 @@ json: {"tests":[
             "Status":"In Progress",
             "Progression":"70",
             "Comments": ["Using", "A lan modem or router", "A number of Raspberry pi:s, one as server and other as playback clients", "See links for code and instructions"],
-            "Assert":"Sync and Playback video files on lan connectioned Raspberry pi:s",
+            "Assert":"Sync and Playback of video files on lan connectioned Raspberry pi:s",
             "Images": [],  
             "Links": ["https://github.com/palletorsson/pi-jockey", ]
         }
