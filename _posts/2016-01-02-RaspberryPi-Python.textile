@@ -3,7 +3,7 @@ layout: post
 title: "Python and Raspberry Pi"
 date: "2016-01-02"
 procent: "100"
-img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/secure_camera.jpg"
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/raspberry_python.jpg"
 summery: ... What can we do with Python and Raspberry Pi.  
 json: {"tests":[
         {   "testName":"Raspberry pi GPIO sensor and camera control", 
