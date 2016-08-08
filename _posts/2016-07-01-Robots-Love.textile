@@ -10,7 +10,7 @@ json: {"tests":[
             "Date":"2016-07-29",
             "Status":"In Progress",
             "Progression":"10",
-            "Comments": [],
+            "Comments": ["Consider other breakout board"],
             "Assert":"The speed of two motors are controlled from python",
             "Images": [],  
             "Links": []
