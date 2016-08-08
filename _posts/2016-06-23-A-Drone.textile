@@ -48,7 +48,7 @@ json: {"tests":[
             "Progression":"100",
             "Comments": [],
             "Assert":"Frame is assembled",
-            "Images": [],  
+            "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/copter1.jpg"],  
             "Links": []
         }
     ]}
