@@ -9,7 +9,7 @@ json: {"tests":[
         {   "testName":"Raspberry pi GPIO sensor and camera control", 
             "Date":"2016-01-20",
             "Status":"Success",
-            "Progression":"89",
+            "Progression":"100",
             "Comments": [],
             "Assert":"A motion sensor ( connected to the GPIO pins ) triggers. The camera takes an image and the program plays a sound file",
             "Images": [],  
