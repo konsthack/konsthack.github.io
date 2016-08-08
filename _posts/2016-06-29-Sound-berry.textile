@@ -11,7 +11,7 @@ json: {"tests":[
             "Status":"In progress",
             "Progression":"80",
             "Comments": [],
-            "Assert":"Potentiometers to control 3 diffrent sinus tons",
+            "Assert":"Potentiometer to control sinus tons",
             "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/arduino.jpg"],  
             "Links": ["http://workshopweekend.net/arduino/labs/exploring-color", "http://wendyju.com/publications/satellite_ccrma.pdf"]
         },
