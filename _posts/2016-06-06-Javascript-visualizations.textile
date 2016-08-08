@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Javascript visualizations"
+title: "Javascript Explorations"
 date: "2016-06-06"
 procent: "1"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/vis.jpg"
-summery: ... Javascript can visualize data,  let's use D3.js and other javascript libraries to explore visualization. 
+summery: ... Javascript can do many things for instance visualize data, let's use start the exploration with D3.js to explore visualization. 
 json: {"tests":[
-        {   "testName":"This project is about to start", 
+        {   "testName":"Initiate visualization", 
             "Date":"2016-01-20",
             "Status":"In Progress",
             "Progression":"1",
             "Comments": [],
-            "Assert":"what do you expect?",
-            "Images": [],  
-            "Links": []
+            "Assert":"Some data is visulized with D3.js",
+            "Images": ["http://i.stack.imgur.com/4yTMs.png"],  
+            "Links": ["https://d3js.org/"]
         }
     ]}
 ---
