@@ -19,7 +19,7 @@ json: {"tests":[
             "Date":"2016-05-30",
             "Status":"Success",  
             "Progression":"100",
-            "Comments": ["see link for code example"],
+            "Comments": ["see link for code example", "start all programs in sudo from the command line"],
             "Assert":"Python and Puredata connects",
             "Images": [], 
             "Links": ["https://github.com/palletorsson/pd_python"]
