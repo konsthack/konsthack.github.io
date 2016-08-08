@@ -4,7 +4,18 @@ title: "3D_build"
 date: "2016-05-30"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/k8200.jpg"
 procent: "80"
-summery: ... We are exploring the build of the K8200 3d printer. 
+summery: ... "<pre> int pot = A0;
+int val = 0;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  val = analogRead(pot);
+  Serial.println(val);
+  delay(100);              
+} </pre>" 
 json: {"tests":[
         {   "testName":"Printing Tweeks", 
             "Date":"2016-04-20",
