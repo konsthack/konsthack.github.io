@@ -9,7 +9,7 @@ json: {"tests":[
         {   "testName":"Initiate visualization", 
             "Date":"2016-01-20",
             "Status":"In Progress",
-            "Progression":"1",
+            "Progression":"10",
             "Comments": [],
             "Assert":"Some data is visulized with D3.js",
             "Images": ["http://i.stack.imgur.com/4yTMs.png"],  
