@@ -14,7 +14,36 @@ json: {"tests":[
             "Assert":"A motion sensor ( connected to the GPIO pins ) triggers. The camera takes an image and the program plays a sound file",
             "Images": [],  
             "Links": []
+        }, 
+        {   "testName":"Raspberry pi first boot", 
+            "Date":"2016-01-20",
+            "Status":"Success",
+            "Progression":"100",
+            "Comments": ["See link for instruction"],
+            "Assert":"Raspberry pi operating system installed",
+            "Images": [],  
+            "Links": ["https://www.raspberrypi.org/documentation/installation/installing-images/README.md"]
+        },
+        {   "testName":"Raspberry pi Installation", 
+            "Date":"2016-01-20",
+            "Status":"Success",
+            "Progression":"100",
+            "Comments": ["login as user: pi password: raspberry", "Back terminal commands: ", "$ pwd", "$ ls", "$ ls man", "$ cd ..", "$ cd home", "$ ls -la", "$ clear", "$ nano new.txt",  "$ sudo shutdown -h now", ],
+            "Assert":"Raspberry pi operating system installed",
+            "Images": [],  
+            "Links": []
         }
     ]}
 ---
 <div class="test-target"></div>
+    installation: 
+
+    or use berry boot: http://www.berryterminal.com/doku.php/berryboot
+
+    Configuration on first boot
+
+    Ccommands1: clear, startx, logout, sudo shutdown -h now,
+
+    Ccommands2: ls, man ls, cd, cd , cd ..,  tab - auto, sudo - "superuser do", sudo shutdown -h now, nano, sudo nano /etc/new.txt
+
+    processes: ps ux, man ls &, kill -9, pkill, 
