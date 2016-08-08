@@ -3,7 +3,7 @@ layout: post
 title: "Plant_sense"
 date: "2016-04-13"
 procent: "60"
-img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/meta.jpg"
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/plant_sence.jpg"
 summery: ... Explore the possibility to sense plans electricity
 json: {"tests":[
         {   "testName":"Up two speed", 
@@ -12,7 +12,7 @@ json: {"tests":[
             "Progression":"70",
             "Comments": [],
             "Assert":"Read the electrical current of a plan with Arduino",
-            "Images": [],  
+            "Images": [""],  
             "Links": []
         }
     ]}
