@@ -22,7 +22,7 @@ json: {"tests":[
             "Comments": ["see link for code example", "start all programs in sudo from the command line"],
             "Assert":"Python and Puredata connects",
             "Images": [], 
-            "Links": ["https://github.com/palletorsson/pd_python"]
+            "Links": ["https://guitarextended.wordpress.com/2012/11/03/make-python-and-pure-data-communicate-on-the-raspberry-pi/", "https://github.com/palletorsson/pd_python"]
         },
         {   "testName":" Interactive Sound Pi Install", 
             "Date":"2016-05-20",
