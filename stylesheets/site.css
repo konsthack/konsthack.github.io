@@ -27,8 +27,8 @@ footer {
 .kf_logo {
     width: 60px;
     height: 60px;
-    -webkit-transition: width 4s height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 4s height 4s;
+    -webkit-transition: width 4s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 4s, height 4s;
 }
 
 .kf_logo:hover {
