@@ -10,7 +10,7 @@ json: {"tests":[
             "Date":"2016-07-20",
             "Status":"In progress",
             "Progression":"80",
-            "Comments": [],
+            "Comments": ["sudo raspi-config to change keyboard layout"],
             "Assert":"Potentiometer to control sinus tons",
             "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/arduino.jpg"],  
             "Links": ["https://github.com/konsthack/arduino_exampels/blob/master/basic_pot", "https://github.com/palletorsson/pd_python/edit/master/python/pd.py", "http://workshopweekend.net/arduino/labs/exploring-color", "http://wendyju.com/publications/satellite_ccrma.pdf"]
