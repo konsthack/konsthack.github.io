@@ -38,9 +38,9 @@ json: {"tests":[
 <div class="test-target"></div>
 
 
-Code: 
+Code Exampel: 
 
-<pre> import os 
+import os 
 import time
 import serial
 
@@ -79,6 +79,3 @@ def down():
 while True:
    value = getValue()
    setVolume(value)
-
-
-<pre>
