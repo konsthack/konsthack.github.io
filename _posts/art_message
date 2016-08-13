@@ -13,7 +13,7 @@ json: {"tests":[
             "Comments": [],
             "Assert":"Python bot talk to irc channel",
             "Images": [],  
-            "Links": ["https://github.com/palletorsson/pi-jockey", ]
+            "Links": ["https://github.com/konsthack/konsthackircbot", ]
         }
     ]}
 ---
