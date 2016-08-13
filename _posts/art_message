@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Art_Message"
+date: "2016-08-06"
+procent: "50"
+img: "https://images.thoughtbot.com/weechat.gif"
+summery: ... An Irc message board .  
+json: {"tests":[
+        {   "testName":"intital Python bot", 
+            "Date":"2016-01-20",
+            "Status":"In Progress",
+            "Progression":"100",
+            "Comments": [],
+            "Assert":"Python bot talk to irc channel",
+            "Images": [],  
+            "Links": ["https://github.com/palletorsson/pi-jockey", ]
+        }
+    ]}
+---
+<div class="test-target"></div>
+
