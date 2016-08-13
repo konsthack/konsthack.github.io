@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Art_Message"
+title: "Art_bot"
 date: "2016-08-06"
 procent: "50"
 img: "https://images.thoughtbot.com/weechat.gif"
