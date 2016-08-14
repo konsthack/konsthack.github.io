@@ -13,7 +13,7 @@ json: {"tests":[
             "Comments": [],
             "Assert":"Initialize project on website",
             "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/radiolove.jpg"],  
-            "Links": ["https://github.com/palletorsson/partybox", "http://makezine.com/projects/raspberry-pirate-radio/", "http://www.articipation.se/2014/12/30/Radio-Love.html", "http://piratebox.cc/", "http://www.instructables.com/id/Raspberry-Pi-Radio-Transmitter/",]
+            "Links": ["https://github.com/palletorsson/partybox", "http://makezine.com/projects/raspberry-pirate-radio/", "http://www.articipation.se/2014/12/30/Radio-Love.html", "http://piratebox.cc/", "http://www.instructables.com/id/Raspberry-Pi-Radio-Transmitter/", "https://www.youtube.com/watch?v=QGtjzjOgyhA"]
         }
     ]}
 ---
