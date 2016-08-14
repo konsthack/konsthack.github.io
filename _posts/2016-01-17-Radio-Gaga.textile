@@ -8,7 +8,7 @@ summery: ... We can broadcast pirate radio with a raspberry pi.
 json: {"tests":[
         {   "testName":"We can use this project to backtrace intering funtionallity regaring file sharing, radio and servers", 
             "Date":"2016-01-15",
-            "Status":"In Progress",
+            "Status":"Success",
             "Progression":"100",
             "Comments": [],
             "Assert":"Initialize project on website",
