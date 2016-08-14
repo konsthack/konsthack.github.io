@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Javascript_Explorations"
-date: "2016-06-06"
+date: "2016-05-06"
 procent: "10"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/vis.jpg"
 summery: ... Javascript can do many things for instance visualize data, let's use start the exploration with D3.js to explore visualization. 
