@@ -11,7 +11,7 @@ json: {"tests":[
             "Status":"In Progress",
             "Progression":"70",
             "Comments": [],
-            "Assert":"Read the electrical current of a plan with Arduino",
+            "Assert":"Read the electrical current of a plant with Arduino",
             "Images": [""],  
             "Links": []
         }
