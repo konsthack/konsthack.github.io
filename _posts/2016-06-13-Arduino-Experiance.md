@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arduino_Exp."
+title: "Arduino_Exp_"
 date: "2016-06-23"
 procent: "30"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/arduino.jpg"
