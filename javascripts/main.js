@@ -3,9 +3,13 @@ $( document ).ready(function() {
     // show list of resent tests
     var list_active = $(".last li")|| 0;   
     var list_title = $(".titles li") || 0;  
-   var list_url = $(".urls li") || 0; 
-
-        html_str = "";
+    var list_url = $(".urls li") || 0; 
+    var iteration = $(".interation") || 0;
+    var html_str = "";
+    
+    if (iteration != 0)  {
+        console.dir(iteration)
+    }
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
                 var parsed = list_active[i].innerText.replace(/=>/g, ':'); 
