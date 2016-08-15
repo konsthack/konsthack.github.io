@@ -13,7 +13,7 @@ $( document ).ready(function() {
         $.each(iter_json , function(i, item) {
             var parsed = iter_json[i].innerText.replace(/=>/g, ':'); 
             obj = jQuery.parseJSON( parsed );
-            iter_div[i].html("iternations: "+ obj.length); 
+            iter_div[i].intertext = "iternations: "+ obj.length; 
             
         }); 
                 
