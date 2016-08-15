@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python and Raspberry Pi"
+title: "Python_RaspberryPi"
 date: "2016-01-02"
 procent: "100"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/raspberry_python.jpg"
