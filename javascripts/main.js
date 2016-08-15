@@ -4,11 +4,13 @@ $( document ).ready(function() {
     var list_active = $(".last li")|| 0;   
     var list_title = $(".titles li") || 0;  
     var list_url = $(".urls li") || 0; 
-    var iteration = $(".interation") || 0;
+    var iter_div = $(".iteration") || 0;
+    var iter_json = $(".iter") || 0;
     var html_str = "";
     
-    if (iteration != 0)  {
-        console.dir(iteration)
+    if (iter_div != 0)  {
+        console.dir(iterdiv);
+        console.dir(iter_json)
     }
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
