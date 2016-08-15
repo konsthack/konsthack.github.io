@@ -7,7 +7,6 @@ $( document ).ready(function() {
     var iter_div = $(".iteration") || 0;
     var iter_json = $(".iter") || 0;
     var post_title = $(".post_title") || 0;    
-    console.log(post_title); 
     var html_str = "";
     if (iter_div != 0)  {
         $.each(iter_json , function(i, item) {
@@ -15,7 +14,6 @@ $( document ).ready(function() {
             var obj = jQuery.parseJSON( parsed );
             var l = obj.tests.length;
             div_ = $("#"+post_title[i].innerHTML);
-            console.log(div_)
             div_.html(" - Iternation: "+ l); 
         }); 
                 
