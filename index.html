@@ -31,11 +31,13 @@ layout: default
   					<div class="process pull-right"> Last Updated: {{ post.date | date_to_string }} </div>
                 </a>
             </div>
-            <div class="iteration" id="{{ post.title }}"></div>
+           
 			<div class="homeworktext">	
 				<h4> 
 					<span class="glyphicon glyphicon-folder-close"></span> 
-					<a href="{{ post.url }}" alt="{{ post.title }}">  <span class="post_title">{{ post.title }}</span> </a></h4>		        
+					<a href="{{ post.url }}" alt="{{ post.title }}">  <span class="post_title">{{ post.title }}</span>
+					</a></h4>
+					 <span class="iteration" id="{{ post.title }}"></span>
 					<div class="progress progress-striped active">   
 						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="98" style="width:{{post.procent}}%">{{post.procent}} %</div>
 		
