@@ -15,8 +15,7 @@ $( document ).ready(function() {
         $.each(iter_json , function(i, item) {
             var parsed = iter_json[i].innerText.replace(/=>/g, ':'); 
             obj = jQuery.parseJSON( parsed );
-            iter_div[i].intertext = "iternations: "+ obj.length; 
-            console.log(post_title[i].intertext)
+            $.("#"+post_title[i].intertext).html("Iternations: "+ obj.length;)
         }); 
                 
     }
