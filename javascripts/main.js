@@ -9,7 +9,6 @@ $( document ).ready(function() {
     var post_title = $(".post_title") || 0;    
     
     var html_str = "";
-    console.log(int)
     if (iter_div != 0)  {
         $.each(iter_json , function(i, item) {
             var parsed = iter_json[i].innerText.replace(/=>/g, ':'); 
