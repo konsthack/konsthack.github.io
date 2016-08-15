@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Javascript_Exp."
+title: "Javascript_Exp_"
 date: "2016-05-06"
 procent: "10"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/vis.jpg"
