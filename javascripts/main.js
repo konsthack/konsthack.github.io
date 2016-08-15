@@ -16,7 +16,7 @@ $( document ).ready(function() {
             var l = obj.tests.length;
             div_ = $("#"+post_title[i].innerHTML);
             console.log(div_)
-            div_.html("Iternations: "+ l); 
+            div_.html("Iternation: "+ l); 
         }); 
                 
     }
