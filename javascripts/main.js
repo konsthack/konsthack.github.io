@@ -9,8 +9,14 @@ $( document ).ready(function() {
     var html_str = "";
     
     if (iter_div != 0)  {
-        console.dir(iterdiv);
-        console.dir(iter_json)
+        console.dir(iter_div);
+        $.each(iter_json , function(i, item) {
+            var parsed = iter_json[i].innerText.replace(/=>/g, ':'); 
+            obj = jQuery.parseJSON( parsed );
+            iter_div[i].html("iternations: "+ obj.length); 
+            
+        }); 
+                
     }
         if (list_active != 0) {  
             $.each(list_active , function(i, item) {
