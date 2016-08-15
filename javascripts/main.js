@@ -12,11 +12,11 @@ $( document ).ready(function() {
     if (iter_div != 0)  {
         $.each(iter_json , function(i, item) {
             var parsed = iter_json[i].innerText.replace(/=>/g, ':'); 
-            obj = jQuery.parseJSON( parsed );
-            console.log(obj.length)
+            var obj = jQuery.parseJSON( parsed );
+            var l = obj.tests.length;
             div_ = $("#"+post_title[i].intertext);
             console.log(div_)
-            div_.html("Iternations: "+ obj.length); 
+            div_.html("Iternations: "+ l); 
         }); 
                 
     }
