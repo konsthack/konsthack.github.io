@@ -10,7 +10,7 @@ json: {"tests":[
             "Date":"2016-01-20",
             "Status":"In Progress",
             "Progression":"50",
-            "Comments": [],
+            "Comments": ["The hackspace is an inclusive space where everyone is welcome regardless of age, ethnicity, gender, sexuality or religion. We aim to discuss and learn more about technology in an environment of mutual respect, tolerance and encouragement. We want all participants to have an enjoyable and fulfilling experience. Therefore, all participants are expected to be polite and respectful towards each other."],
             "Assert":"The text is relavant",
             "Images": [],  
             "Links": ["http://gbg.hackerspace.se/ghs/jargon"]
