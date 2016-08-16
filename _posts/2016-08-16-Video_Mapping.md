@@ -13,16 +13,16 @@ json: {"tests":[
             "Comments": [],
             "Assert":"Video playing in game world",
             "Images": [],  
-            "Links": []
+            "Links": [""]
         }, 
         {   "testName":"Install Unrealed", 
             "Date":"2016-08-15",
             "Status":"Success",
             "Progression":"100",
-            "Comments": [],
+            "Comments": ["Install it for mac, used version v4.10.4 for OS X v10.9.5, current version v4.14.5 need OS X Yosemite v10.10.5"],
             "Assert":"Unrealed installed and opened",
             "Images": [],  
-            "Links": []
+            "Links": ["https://en.wikipedia.org/wiki/Projection_mapping", "https://www.unrealengine.com"]
         }
     ]}
 ---
