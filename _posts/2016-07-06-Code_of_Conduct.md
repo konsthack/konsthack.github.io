@@ -3,7 +3,7 @@ layout: post
 title: "Code_of_Conduct"
 date: "2016-07-06"
 procent: "50"
-img: "https://cdn0.vox-cdn.com/thumbor/b88s72YxhhlsVu04amTNp6B_G0o=/3x0:1020x678/1025x683/filters:format(webp)/cdn0.vox-cdn.com/assets/2008907/Aaron_Swartz_-_SOPA.jpg"
+img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/coc.jpg"
 summery: ... We have code of conduct. 
 json: {"tests":[
         {   "testName":"Initiate Code of Conduct", 
