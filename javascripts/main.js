@@ -14,7 +14,7 @@ $( document ).ready(function() {
             var obj = jQuery.parseJSON( parsed );
             var l = obj.tests.length;
             div_ = $("#"+post_title[i].innerHTML);
-            div_.html(" - Iternation: "+ l); 
+            div_.html(" - Iteration: "+ l); 
         }); 
                 
     }
