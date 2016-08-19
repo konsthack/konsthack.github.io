@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Code_of_Conduct"
+title: "Conduct_Code"
 date: "2016-07-06"
 procent: "50"
 img: "https://dl.dropboxusercontent.com/u/1882061/konsthack/coc.jpg"
