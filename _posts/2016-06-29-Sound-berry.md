@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sound_Raspberry"
+title: "Sound_Rasp"
 date: "2016-07-20"
 procent: "40"
 img: https://dl.dropboxusercontent.com/u/1882061/konsthack/Satellite.jpg
