@@ -20,7 +20,7 @@ json: {"tests":[
             "Date":"2016-05-29",
             "Status":"Success",
             "Progression":"100",
-            "Comments": [],
+            "Comments": ["for list of text see link below, for physical archive se hackerspace"],
             "Assert":"A List of text and an archive",
             "Images": ["https://dl.dropboxusercontent.com/u/1882061/konsthack/archive.jpg"],  
             "Links": ["http://www.sparvnastet.org/pages/studygroup-kursplan.html"]
