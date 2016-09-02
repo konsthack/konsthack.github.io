@@ -18,7 +18,7 @@ json: {"tests":[
         },
         {   "testName":"Initiate Project", 
             "Date":"2016-05-29",
-            "Status":"In Progress",
+            "Status":"Success",
             "Progression":"100",
             "Comments": [],
             "Assert":"A List of text and an archive",
