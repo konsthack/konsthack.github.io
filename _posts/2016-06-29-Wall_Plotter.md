@@ -10,11 +10,11 @@ json: {"tests":[
         {   "testName":"Initiate Wall_Plotter", 
             "Date":"2016-06-29",
             "Status":"In Progress",
-            "Progression":"10",
-            "Comments": [],
-            "Assert":"Suggest project at first meeting",
+            "Progression":"50",
+            "Comments": ["see link for possible setup", "at the junk rally we found several stepper motors"],
+            "Assert":"Suggest project to group",
             "Images": [],  
-            "Links": []
+            "Links": ["http://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html"]
         }
     ]}
 ---
